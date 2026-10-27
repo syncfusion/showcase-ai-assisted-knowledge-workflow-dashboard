@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<showcase id="ai-assisted-knowledge-workflow" title="AI-Assisted Knowledge &amp; Workflow Copilot Dashboard" schemaVersion="2">
+  <industries>
+    <industry primary="true">Business &amp; Professional Services</industry>
+  </industries>
+  <useCases>
+    <useCase>Analytics &amp; Dashboards</useCase>
+  </useCases>
+  <description>A four-page React knowledge and operations dashboard with a daily Copilot briefing, knowledge-corpus metrics, weekly workflow planning, and business analytics. Syncfusion Grid, Scheduler, Chart, Card, ListView, TextBox, and Button components support the experience. A deterministic local sample AI provider answers prompts using bundled JSON fixtures; the application does not connect to external AI services or business systems.</description>
+  <components>
+    <component name="Grid">Displays knowledge article records and regional analytics drilldown data with sortable and searchable columns.</component>
+    <component name="Scheduler">Presents the sample operational workflow schedule in a weekly planning view.</component>
+    <component name="Chart">Visualizes knowledge confidence and readership alongside revenue trends, regional share, and deal-size comparisons.</component>
+    <component name="Card">Groups KPI summaries, daily briefing content, SLA exposure, assistant panels, and analytics.</component>
+    <component name="ListView">Renders the Copilot Hub activity stream and the workflow action queue.</component>
+    <component name="Sample AI assistant">Purpose-built local assistant panels return deterministic responses grounded in bundled JSON fixtures; no external model or AI service is called.</component>
+  </components>
+  <demos>
+    <demo platform="React" primary="true">
+      <url>/ai-assisted-knowledge-workflow/react/</url>
+    </demo>
+  </demos>
+  <thumbnailImageUrl>https://cdn.syncfusion.com/showcase/images/ai-assisted-knowledge-workflow-thumbnail.webp</thumbnailImageUrl>
+  <bannerImageUrl>https://cdn.syncfusion.com/showcase/images/ai-assisted-knowledge-workflow-banner.webp</bannerImageUrl>
+  <sources>
+    <source platform="React" primary="true">
+      <url>https://github.com/syncfusion/showcase-ai-assisted-knowledge-workflow</url>
+    </source>
+  </sources>
+  <newestRank>63</newestRank>
+</showcase>

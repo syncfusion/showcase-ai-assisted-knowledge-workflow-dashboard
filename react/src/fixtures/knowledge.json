@@ -1,0 +1,2712 @@
+{
+  "schemaVersion": 2,
+  "asOf": "2026-10-15",
+  "articles": [
+    {
+      "id": "art-001",
+      "title": "Zero-trust access review checklist",
+      "topic": "Security",
+      "status": "Published",
+      "owner": "Nadia Farouk",
+      "updated": "2026-10-15",
+      "reads": 2410,
+      "gaps": 0,
+      "confidence": 0.93,
+      "summary": "Quarterly walkthrough for granting, reviewing and revoking standing access, with the evidence each reviewer must attach before sign-off.",
+      "body": "## Zero-trust access review checklist\n\nQuarterly walkthrough for granting, reviewing and revoking standing access, with the evidence each reviewer must attach before sign-off.\n\n### When to use this\n\nThis is the reference for **Security** work owned by Nadia Farouk. It is at version 3 and was last edited by Lena Fischer on 2026-10-15.\n\n### Before you start\n\n- Confirm the change falls under `zero-trust` and note who approved it.\n- Confirm the change falls under `access` and note who approved it.\n- Confirm the change falls under `quarterly` and note who approved it.\n- Check the 2 sources cited below are still current.\n\n### Steps\n\n1. Open the request and confirm the scope with the requester.\n2. Apply the procedure as written; record each exception rather than skipping a step.\n3. Ask a second reviewer to check the evidence before the change closes.\n\n### Known gaps\n\nNo open gaps. Raise one from a support thread if the procedure does not cover your case.\n\n### Review\n\nNext review due **2026-11-14**. Current confidence **93%** across 1,976 reads in the last 30 days.",
+      "created": "2026-07-17",
+      "lastEditor": "Lena Fischer",
+      "version": 3,
+      "reviewers": [
+        "Lena Fischer"
+      ],
+      "dueReview": "2026-11-14",
+      "viewsLast30": 1976,
+      "viewsTrend": [
+        {
+          "x": "2026-10-06",
+          "y": 240
+        },
+        {
+          "x": "2026-10-07",
+          "y": 204
+        },
+        {
+          "x": "2026-10-08",
+          "y": 187
+        },
+        {
+          "x": "2026-10-09",
+          "y": 154
+        },
+        {
+          "x": "2026-10-10",
+          "y": 142
+        },
+        {
+          "x": "2026-10-11",
+          "y": 177
+        },
+        {
+          "x": "2026-10-12",
+          "y": 198
+        },
+        {
+          "x": "2026-10-13",
+          "y": 244
+        },
+        {
+          "x": "2026-10-14",
+          "y": 247
+        },
+        {
+          "x": "2026-10-15",
+          "y": 228
+        }
+      ],
+      "tags": [
+        "zero-trust",
+        "access",
+        "quarterly"
+      ],
+      "relatedIds": [
+        "art-004",
+        "art-018"
+      ],
+      "citations": [
+        {
+          "id": "ext-rbac-model",
+          "label": "Role-based access control model",
+          "kind": "internal"
+        },
+        {
+          "id": "ext-iso27001",
+          "label": "ISO/IEC 27001:2022 Annex A",
+          "kind": "regulation",
+          "url": "https://www.iso.org/standard/27001"
+        }
+      ],
+      "sourceOfTruth": "internal"
+    },
+    {
+      "id": "art-002",
+      "title": "Customer support escalation matrix",
+      "topic": "Customer support",
+      "status": "Published",
+      "owner": "Priya Raman",
+      "updated": "2026-10-14",
+      "reads": 3184,
+      "gaps": 0,
+      "confidence": 0.94,
+      "summary": "Which queue a ticket escalates to, who may approve an override, and the response time each severity commits to after the first reply.",
+      "body": "## Customer support escalation matrix\n\nWhich queue a ticket escalates to, who may approve an override, and the response time each severity commits to after the first reply.\n\n### When to use this\n\nThis is the reference for **Customer support** work owned by Priya Raman. It is at version 12 and was last edited by Nadia Farouk on 2026-10-14.\n\n### Before you start\n\n- Confirm the change falls under `escalation` and note who approved it.\n- Confirm the change falls under `support` and note who approved it.\n- Confirm the change falls under `sla` and note who approved it.\n- Check the 1 source cited below are still current.\n\n### Steps\n\n1. Open the request and confirm the scope with the requester.\n2. Apply the procedure as written; record each exception rather than skipping a step.\n3. Ask a second reviewer to check the evidence before the change closes.\n\n### Known gaps\n\nNo open gaps. Raise one from a support thread if the procedure does not cover your case.\n\n### Review\n\nNext review due **2026-11-24**. Current confidence **94%** across 2,834 reads in the last 30 days.",
+      "created": "2025-07-15",
+      "lastEditor": "Nadia Farouk",
+      "version": 12,
+      "reviewers": [
+        "Nadia Farouk"
+      ],
+      "dueReview": "2026-11-24",
+      "viewsLast30": 2834,
+      "viewsTrend": [
+        {
+          "x": "2026-10-05",
+          "y": 345
+        },
+        {
+          "x": "2026-10-06",
+          "y": 292
+        },
+        {
+          "x": "2026-10-07",
+          "y": 268
+        },
+        {
+          "x": "2026-10-08",
+          "y": 222
+        },
+        {
+          "x": "2026-10-09",
+          "y": 204
+        },
+        {
+          "x": "2026-10-10",
+          "y": 254
+        },
+        {
+          "x": "2026-10-11",
+          "y": 285
+        },
+        {
+          "x": "2026-10-12",
+          "y": 349
+        },
+        {
+          "x": "2026-10-13",
+          "y": 354
+        },
+        {
+          "x": "2026-10-14",
+          "y": 327
+        }
+      ],
+      "tags": [
+        "escalation",
+        "support",
+        "sla"
+      ],
+      "relatedIds": [
+        "art-006",
+        "art-022",
+        "art-009"
+      ],
+      "citations": [
+        {
+          "id": "ext-sla-matrix",
+          "label": "Support SLA tier definitions",
+          "kind": "internal"
+        }
+      ],
+      "sourceOfTruth": "internal"
+    },
+    {
+      "id": "art-003",
+      "title": "Region failover drill procedure",
+      "topic": "Reliability",
+      "status": "Published",
+      "owner": "Sam Okafor",
+      "updated": "2026-09-30",
+      "reads": 1687,
+      "gaps": 1,
+      "confidence": 0.88,
+      "summary": "Step-by-step failover drill for each region, including the DNS cutover, the customer-facing status page update, and the rollback trigger.",
+      "body": "## Region failover drill procedure\n\nStep-by-step failover drill for each region, including the DNS cutover, the customer-facing status page update, and the rollback trigger.\n\n### When to use this\n\nThis is the reference for **Reliability** work owned by Sam Okafor. It is at version 1 and was last edited by Nadia Farouk on 2026-09-30.\n\n### Before you start\n\n- Confirm the change falls under `failover` and note who approved it.\n- Confirm the change falls under `drill` and note who approved it.\n- Confirm the change falls under `regions` and note who approved it.\n- Check the 2 sources cited below are still current.\n\n### Steps\n\n1. Open the request and confirm the scope with the requester.\n2. Apply the procedure as written; record each exception rather than skipping a step.\n3. Ask a second reviewer to check the evidence before the change closes.\n\n### Known gaps\n\n- The approval chain for a cross-region request is not written down.\n\n### Review\n\nNext review due **2026-11-14**. Current confidence **88%** across 1,400 reads in the last 30 days.",
+      "created": "2026-06-09",
+      "lastEditor": "Nadia Farouk",
+      "version": 1,
+      "reviewers": [
+        "Nadia Farouk"
+      ],
+      "dueReview": "2026-11-14",
+      "viewsLast30": 1400,
+      "viewsTrend": [
+        {
+          "x": "2026-09-21",
+          "y": 170
+        },
+        {
+          "x": "2026-09-22",
+          "y": 144
+        },
+        {
+          "x": "2026-09-23",
+          "y": 133
+        },
+        {
+          "x": "2026-09-24",
+          "y": 109
+        },
+        {
+          "x": "2026-09-25",
+          "y": 101
+        },
+        {
+          "x": "2026-09-26",
+          "y": 125
+        },
+        {
+          "x": "2026-09-27",
+          "y": 141
+        },
+        {
+          "x": "2026-09-28",
+          "y": 173
+        },
+        {
+          "x": "2026-09-29",
+          "y": 175
+        },
+        {
+          "x": "2026-09-30",
+          "y": 162
+        }
+      ],
+      "tags": [
+        "failover",
+        "drill",
+        "regions"
+      ],
+      "relatedIds": [
+        "art-023",
+        "art-015"
+      ],
+      "citations": [
+        {
+          "id": "ext-oncall",
+          "label": "On-call escalation rota",
+          "kind": "internal"
+        },
+        {
+          "id": "ext-incident-form",
+          "label": "Incident review form",
+          "kind": "runbook",
+          "url": "https://example.com/runbooks/incident-review"
+        }
+      ],
+      "sourceOfTruth": "internal"
+    },
+    {
+      "id": "art-004",
+      "title": "Vendor security questionnaire answers",
+      "topic": "Security",
+      "status": "Needs review",
+      "owner": "Nadia Farouk",
+      "updated": "2026-09-28",
+      "reads": 742,
+      "gaps": 2,
+      "confidence": 0.66,
+      "summary": "Standard answers to the 40 questions vendors ask during security review, with the evidence links reviewers need to attach.",
+      "body": "## Vendor security questionnaire answers\n\nStandard answers to the 40 questions vendors ask during security review, with the evidence links reviewers need to attach.\n\n### When to use this\n\nThis is the reference for **Security** work owned by Nadia Farouk. It is at version 0 and was last edited by Marcus Lee on 2026-09-28.\n\n### Before you start\n\n- Confirm the change falls under `vendor` and note who approved it.\n- Confirm the change falls under `questionnaire` and note who approved it.\n- Confirm the change falls under `security-review` and note who approved it.\n- Check the 2 sources cited below are still current.\n\n### Steps\n\n1. Open the request and confirm the scope with the requester.\n2. Apply the procedure as written; record each exception rather than skipping a step.\n3. Ask a second reviewer to check the evidence before the change closes.\n\n### Known gaps\n\n- The approval chain for a cross-region request is not written down.,- The rollback threshold is stated qualitatively and needs a number.\n\n### Review\n\nNext review due **2026-10-05**. Current confidence **66%** across 623 reads in the last 30 days.",
+      "created": "2026-05-15",
+      "lastEditor": "Marcus Lee",
+      "version": 0,
+      "reviewers": [
+        "Marcus Lee",
+        "Priya Raman"
+      ],
+      "dueReview": "2026-10-05",
+      "viewsLast30": 623,
+      "viewsTrend": [
+        {
+          "x": "2026-09-19",
+          "y": 76
+        },
+        {
+          "x": "2026-09-20",
+          "y": 64
+        },
+        {
+          "x": "2026-09-21",
+          "y": 59
+        },
+        {
+          "x": "2026-09-22",
+          "y": 49
+        },
+        {
+          "x": "2026-09-23",
+          "y": 45
+        },
+        {
+          "x": "2026-09-24",
+          "y": 56
+        },
+        {
+          "x": "2026-09-25",
+          "y": 63
+        },
+        {
+          "x": "2026-09-26",
+          "y": 77
+        },
+        {
+          "x": "2026-09-27",
+          "y": 78
+        },
+        {
+          "x": "2026-09-28",
+          "y": 72
+        }
+      ],
+      "tags": [
+        "vendor",
+        "questionnaire",
+        "security-review"
+      ],
+      "relatedIds": [
+        "art-001",
+        "art-018"
+      ],
+      "citations": [
+        {
+          "id": "ext-vendor-dpa",
+          "label": "Vendor data processing addendum",
+          "kind": "vendor",
+          "url": "https://example.com/legal/dpa"
+        },
+        {
+          "id": "ext-aicpa-soc2",
+          "label": "AICPA SOC 2 trust services criteria",
+          "kind": "regulation",
+          "url": "https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2"
+        }
+      ],
+      "sourceOfTruth": "vendor"
+    },
+    {
+      "id": "art-005",
+      "title": "Renewal risk scoring guide",
+      "topic": "Cost optimisation",
+      "status": "Draft",
+      "owner": "Marcus Lee",
+      "updated": "2026-09-22",
+      "reads": 318,
+      "gaps": 1,
+      "confidence": 0.58,
+      "summary": "How a renewal is scored on usage, support load and margin, and which two of the three signals must agree before a discount is approved.",
+      "body": "## Renewal risk scoring guide\n\nHow a renewal is scored on usage, support load and margin, and which two of the three signals must agree before a discount is approved.\n\n### When to use this\n\nThis is the reference for **Cost optimisation** work owned by Marcus Lee. It is at version 2 and was last edited by Sam Okafor on 2026-09-22.\n\n### Before you start\n\n- Confirm the change falls under `renewal` and note who approved it.\n- Confirm the change falls under `pricing` and note who approved it.\n- Confirm the change falls under `draft` and note who approved it.\n- Check the 1 source cited below are still current.\n\n### Steps\n\n1. Open the request and confirm the scope with the requester.\n2. Apply the procedure as written; record each exception rather than skipping a step.\n3. Ask a second reviewer to check the evidence before the change closes.\n\n### Known gaps\n\n- The approval chain for a cross-region request is not written down.\n\n### Review\n\nNext review due **2026-11-14**. Current confidence **58%** across 270 reads in the last 30 days.",
+      "created": "2026-04-16",
+      "lastEditor": "Sam Okafor",
+      "version": 2,
+      "reviewers": [
+        "Sam Okafor"
+      ],
+      "dueReview": "2026-11-14",
+      "viewsLast30": 270,
+      "viewsTrend": [
+        {
+          "x": "2026-09-13",
+          "y": 33
+        },
+        {
+          "x": "2026-09-14",
+          "y": 28
+        },
+        {
+          "x": "2026-09-15",
+          "y": 26
+        },
+        {
+          "x": "2026-09-16",
+          "y": 21
+        },
+        {
+          "x": "2026-09-17",
+          "y": 19
+        },
+        {
+          "x": "2026-09-18",
+          "y": 24
+        },
+        {
+          "x": "2026-09-19",
+          "y": 27
+        },
+        {
+          "x": "2026-09-20",
+          "y": 33
+        },
+        {
+          "x": "2026-09-21",
+          "y": 34
+        },
+        {
+          "x": "2026-09-22",
+          "y": 31
+        }
+      ],
+      "tags": [
+        "renewal",
+        "pricing",
+        "draft"
+      ],
+      "relatedIds": [
+        "art-011",
+        "art-020",
+        "art-016"
+      ],
+      "citations": [
+        {
+          "id": "ext-pricing-council",
+          "label": "Pricing council minutes",
+          "kind": "internal"
+        }
+      ],
+      "sourceOfTruth": "internal"
+    },
+    {
+      "id": "art-006",
+      "title": "Ticket deflection playbook",
+      "topic": "Customer support",
+      "status": "Published",
+      "owner": "Priya Raman",
+      "updated": "2026-10-01",
+      "reads": 3990,
+      "gaps": 0,
+      "confidence": 0.95,
+      "summary": "The intents a first-line agent should resolve without escalation, the reply templates for each, and the phrasing that always needs a human.",
+      "body": "## Ticket deflection playbook\n\nThe intents a first-line agent should resolve without escalation, the reply templates for each, and the phrasing that always needs a human.\n\n### When to use this\n\nThis is the reference for **Customer support** work owned by Priya Raman. It is at version 4 and was last edited by Priya Raman on 2026-10-01.\n\n### Before you start\n\n- Confirm the change falls under `deflection` and note who approved it.\n- Confirm the change falls under `first-line` and note who approved it.\n- Confirm the change falls under `reply-templates` and note who approved it.\n- Check the 2 sources cited below are still current.\n\n### Steps\n\n1. Open the request and confirm the scope with the requester.\n2. Apply the procedure as written; record each exception rather than skipping a step.\n3. Ask a second reviewer to check the evidence before the change closes.\n\n### Known gaps\n\nNo open gaps. Raise one from a support thread if the procedure does not cover your case.\n\n### Review\n\nNext review due **2026-11-14**. Current confidence **95%** across 3,431 reads in the last 30 days.",
+      "created": "2026-04-02",
+      "lastEditor": "Priya Raman",
+      "version": 4,
+      "reviewers": [
+        "Priya Raman"
+      ],
+      "dueReview": "2026-11-14",
+      "viewsLast30": 3431,
+      "viewsTrend": [
+        {
+          "x": "2026-09-22",
+          "y": 417
+        },
+        {
+          "x": "2026-09-23",
+          "y": 354
+        },
+        {
+          "x": "2026-09-24",
+          "y": 325
+        },
+        {
+          "x": "2026-09-25",
+          "y": 268
+        },
+        {
+          "x": "2026-09-26",
+          "y": 247
+        },
+        {
+          "x": "2026-09-27",
+          "y": 307
+        },
+        {
+          "x": "2026-09-28",
+          "y": 345
+        },
+        {
+          "x": "2026-09-29",
+          "y": 423
+        },
+        {
+          "x": "2026-09-30",
+          "y": 429
+        },
+        {
+          "x": "2026-10-01",
+          "y": 396
+        }
+      ],
+      "tags": [
+        "deflection",
+        "first-line",
+        "reply-templates"
+      ],
+      "relatedIds": [
+        "art-002",
+        "art-022"
+      ],
+      "citations": [
+        {
+          "id": "ext-sla-matrix",
+          "label": "Support SLA tier definitions",
+          "kind": "internal"
+        },
+        {
+          "id": "ext-model-cards",
+          "label": "Internal model cards index",
+          "kind": "internal"
+        }
+      ],
+      "sourceOfTruth": "internal"
+    },
+    {
+      "id": "art-007",
+      "title": "Data quality triage checklist",
+      "topic": "Data quality",
+      "status": "Published",
+      "owner": "Tom Alvarez",
+      "updated": "2026-10-12",
+      "reads": 2041,
+      "gaps": 1,
+      "confidence": 0.81,
+      "summary": "How to score a flagged dataset, who signs off a quarantine, and the two conditions that stop a fix from shipping.",
+      "body": "## Data quality triage checklist\n\nHow to score a flagged dataset, who signs off a quarantine, and the two conditions that stop a fix from shipping.\n\n### When to use this\n\nThis is the reference for **Data quality** work owned by Tom Alvarez. It is at version 8 and was last edited by Nadia Farouk on 2026-10-12.\n\n### Before you start\n\n- Confirm the change falls under `triage` and note who approved it.\n- Confirm the change falls under `quarantine` and note who approved it.\n- Confirm the change falls under `data-quality` and note who approved it.\n- Check the 1 source cited below are still current.\n\n### Steps\n\n1. Open the request and confirm the scope with the requester.\n2. Apply the procedure as written; record each exception rather than skipping a step.\n3. Ask a second reviewer to check the evidence before the change closes.\n\n### Known gaps\n\n- The approval chain for a cross-region request is not written down.\n\n### Review\n\nNext review due **2026-11-24**. Current confidence **81%** across 1,816 reads in the last 30 days.",
+      "created": "2025-07-13",
+      "lastEditor": "Nadia Farouk",
+      "version": 8,
+      "reviewers": [
+        "Nadia Farouk"
+      ],
+      "dueReview": "2026-11-24",
+      "viewsLast30": 1816,
+      "viewsTrend": [
+        {
+          "x": "2026-10-03",
+          "y": 221
+        },
+        {
+          "x": "2026-10-04",
+          "y": 187
+        },
+        {
+          "x": "2026-10-05",
+          "y": 172
+        },
+        {
+          "x": "2026-10-06",
+          "y": 142
+        },
+        {
+          "x": "2026-10-07",
+          "y": 131
+        },
+        {
+          "x": "2026-10-08",
+          "y": 162
+        },
+        {
+          "x": "2026-10-09",
+          "y": 182
+        },
+        {
+          "x": "2026-10-10",
+          "y": 224
+        },
+        {
+          "x": "2026-10-11",
+          "y": 227
+        },
+        {
+          "x": "2026-10-12",
+          "y": 210
+        }
+      ],
+      "tags": [
+        "triage",
+        "quarantine",
+        "data-quality"
+      ],
+      "relatedIds": [
+        "art-013",
+        "art-021"
+      ],
+      "citations": [
+        {
+          "id": "ext-pii-standard",
+          "label": "PII classification standard",
+          "kind": "internal"
+        }
+      ],
+      "sourceOfTruth": "internal"
+    },
+    {
+      "id": "art-008",
+      "title": "Model usage and cost guardrails",
+      "topic": "Internal AI usage",
+      "status": "Published",
+      "owner": "Lena Fischer",
+      "updated": "2026-10-13",
+      "reads": 2260,
+      "gaps": 0,
+      "confidence": 0.91,
+      "summary": "Per-token and per-seat ceilings for internal model use, the alert that fires at 80 percent, and who can approve an exception.",
+      "body": "## Model usage and cost guardrails\n\nPer-token and per-seat ceilings for internal model use, the alert that fires at 80 percent, and who can approve an exception.\n\n### When to use this\n\nThis is the reference for **Internal AI usage** work owned by Lena Fischer. It is at version 2 and was last edited by Tom Alvarez on 2026-10-13.\n\n### Before you start\n\n- Confirm the change falls under `cost` and note who approved it.\n- Confirm the change falls under `guardrails` and note who approved it.\n- Confirm the change falls under `models` and note who approved it.\n- Check the 2 sources cited below are still current.\n\n### Steps\n\n1. Open the request and confirm the scope with the requester.\n2. Apply the procedure as written; record each exception rather than skipping a step.\n3. Ask a second reviewer to check the evidence before the change closes.\n\n### Known gaps\n\nNo open gaps. Raise one from a support thread if the procedure does not cover your case.\n\n### Review\n\nNext review due **2026-11-14**. Current confidence **91%** across 1,966 reads in the last 30 days.",
+      "created": "2026-03-22",
+      "lastEditor": "Tom Alvarez",
+      "version": 2,
+      "reviewers": [
+        "Tom Alvarez"
+      ],
+      "dueReview": "2026-11-14",
+      "viewsLast30": 1966,
+      "viewsTrend": [
+        {
+          "x": "2026-10-04",
+          "y": 239
+        },
+        {
+          "x": "2026-10-05",
+          "y": 203
+        },
+        {
+          "x": "2026-10-06",
+          "y": 186
+        },
+        {
+          "x": "2026-10-07",
+          "y": 154
+        },
+        {
+          "x": "2026-10-08",
+          "y": 141
+        },
+        {
+          "x": "2026-10-09",
+          "y": 176
+        },
+        {
+          "x": "2026-10-10",
+          "y": 197
+        },
+        {
+          "x": "2026-10-11",
+          "y": 242
+        },
+        {
+          "x": "2026-10-12",
+          "y": 246
+        },
+        {
+          "x": "2026-10-13",
+          "y": 227
+        }
+      ],
+      "tags": [
+        "cost",
+        "guardrails",
+        "models"
+      ],
+      "relatedIds": [
+        "art-009",
+        "art-016",
+        "art-026"
+      ],
+      "citations": [
+        {
+          "id": "ext-model-cards",
+          "label": "Internal model cards index",
+          "kind": "internal"
+        },
+        {
+          "id": "ext-pricing-council",
+          "label": "Pricing council minutes",
+          "kind": "internal"
+        }
+      ],
+      "sourceOfTruth": "internal"
+    },
+    {
+      "id": "art-009",
+      "title": "Prompt library for support replies",
+      "topic": "Internal AI usage",
+      "status": "Needs review",
+      "owner": "Tom Alvarez",
+      "updated": "2026-10-07",
+      "reads": 984,
+      "gaps": 2,
+      "confidence": 0.71,
+      "summary": "Reviewed prompt patterns for the four support intents that answer most often, with the phrasing that keeps a model inside its evidence.",
+      "body": "## Prompt library for support replies\n\nReviewed prompt patterns for the four support intents that answer most often, with the phrasing that keeps a model inside its evidence.\n\n### When to use this\n\nThis is the reference for **Internal AI usage** work owned by Tom Alvarez. It is at version 1 and was last edited by Lena Fischer on 2026-10-07.\n\n### Before you start\n\n- Confirm the change falls under `prompts` and note who approved it.\n- Confirm the change falls under `support` and note who approved it.\n- Confirm the change falls under `review` and note who approved it.\n- Check the 1 source cited below are still current.\n\n### Steps\n\n1. Open the request and confirm the scope with the requester.\n2. Apply the procedure as written; record each exception rather than skipping a step.\n3. Ask a second reviewer to check the evidence before the change closes.\n\n### Known gaps\n\n- The approval chain for a cross-region request is not written down.,- The rollback threshold is stated qualitatively and needs a number.\n\n### Review\n\nNext review due **2026-10-21**. Current confidence **71%** across 866 reads in the last 30 days.",
+      "created": "2026-02-21",
+      "lastEditor": "Lena Fischer",
+      "version": 1,
+      "reviewers": [
+        "Lena Fischer",
+        "Marcus Lee"
+      ],
+      "dueReview": "2026-10-21",
+      "viewsLast30": 866,
+      "viewsTrend": [
+        {
+          "x": "2026-09-28",
+          "y": 105
+        },
+        {
+          "x": "2026-09-29",
+          "y": 89
+        },
+        {
+          "x": "2026-09-30",
+          "y": 82
+        },
+        {
+          "x": "2026-10-01",
+          "y": 68
+        },
+        {
+          "x": "2026-10-02",
+          "y": 62
+        },
+        {
+          "x": "2026-10-03",
+          "y": 77
+        },
+        {
+          "x": "2026-10-04",
+          "y": 87
+        },
+        {
+          "x": "2026-10-05",
+          "y": 107
+        },
+        {
+          "x": "2026-10-06",
+          "y": 108
+        },
+        {
+          "x": "2026-10-07",
+          "y": 100
+        }
+      ],
+      "tags": [
+        "prompts",
+        "support",
+        "review"
+      ],
+      "relatedIds": [
+        "art-008",
+        "art-016",
+        "art-002"
+      ],
+      "citations": [
+        {
+          "id": "ext-model-cards",
+          "label": "Internal model cards index",
+          "kind": "internal"
+        }
+      ],
+      "sourceOfTruth": "internal"
+    },
+    {
+      "id": "art-010",
+      "title": "PII classification standard",
+      "topic": "Compliance",
+      "status": "Published",
+      "owner": "Nadia Farouk",
+      "updated": "2026-09-19",
+      "reads": 1876,
+      "gaps": 0,
+      "confidence": 0.92,
+      "summary": "The four PII classes used across the product, the systems that may store each, and the retention ceiling that applies before deletion is considered.",
+      "body": "## PII classification standard\n\nThe four PII classes used across the product, the systems that may store each, and the retention ceiling that applies before deletion is considered.\n\n### When to use this\n\nThis is the reference for **Compliance** work owned by Nadia Farouk. It is at version 1 and was last edited by Nadia Farouk on 2026-09-19.\n\n### Before you start\n\n- Confirm the change falls under `pii` and note who approved it.\n- Confirm the change falls under `classification` and note who approved it.\n- Confirm the change falls under `retention` and note who approved it.\n- Check the 3 sources cited below are still current.\n\n### Steps\n\n1. Open the request and confirm the scope with the requester.\n2. Apply the procedure as written; record each exception rather than skipping a step.\n3. Ask a second reviewer to check the evidence before the change closes.\n\n### Known gaps\n\nNo open gaps. Raise one from a support thread if the procedure does not cover your case.\n\n### Review\n\nNext review due **2026-11-14**. Current confidence **92%** across 1,670 reads in the last 30 days.",
+      "created": "2026-01-11",
+      "lastEditor": "Nadia Farouk",
+      "version": 1,
+      "reviewers": [
+        "Nadia Farouk"
+      ],
+      "dueReview": "2026-11-14",
+      "viewsLast30": 1670,
+      "viewsTrend": [
+        {
+          "x": "2026-09-10",
+          "y": 177
+        },
+        {
+          "x": "2026-09-11",
+          "y": 160
+        },
+        {
+          "x": "2026-09-12",
+          "y": 129
+        },
+        {
+          "x": "2026-09-13",
+          "y": 137
+        },
+        {
+          "x": "2026-09-14",
+          "y": 141
+        },
+        {
+          "x": "2026-09-15",
+          "y": 178
+        },
+        {
+          "x": "2026-09-16",
+          "y": 191
+        },
+        {
+          "x": "2026-09-17",
+          "y": 212
+        },
+        {
+          "x": "2026-09-18",
+          "y": 193
+        },
+        {
+          "x": "2026-09-19",
+          "y": 180
+        }
+      ],
+      "tags": [
+        "pii",
+        "classification",
+        "retention"
+      ],
+      "relatedIds": [
+        "art-014",
+        "art-012"
+      ],
+      "citations": [
+        {
+          "id": "ext-pii-standard",
+          "label": "PII classification standard",
+          "kind": "internal"
+        },
+        {
+          "id": "ext-retention-policy",
+          "label": "Data retention policy",
+          "kind": "regulation",
+          "url": "https://example.com/policies/retention"
+        },
+        {
+          "id": "ext-gdpr-art30",
+          "label": "GDPR Article 30 record of processing",
+          "kind": "regulation",
+          "url": "https://gdpr-info.eu/art-30-gdpr/"
+        }
+      ],
+      "sourceOfTruth": "regulation"
+    },
+    {
+      "id": "art-011",
+      "title": "DACH pricing pilot runbook",
+      "topic": "Cost optimisation",
+      "status": "Needs review",
+      "owner": "Lena Fischer",
+      "updated": "2026-10-09",
+      "reads": 1187,
+      "gaps": 2,
+      "confidence": 0.62,
+      "summary": "How to stand up and price a regional pricing pilot: the approval chain, the guardrail metrics, and the stop conditions agreed with Finance.",
+      "body": "## DACH pricing pilot runbook\n\nHow to stand up and price a regional pricing pilot: the approval chain, the guardrail metrics, and the stop conditions agreed with Finance.\n\n### When to use this\n\nThis is the reference for **Cost optimisation** work owned by Lena Fischer. It is at version 3 and was last edited by Marcus Lee on 2026-10-09.\n\n### Before you start\n\n- Confirm the change falls under `pricing` and note who approved it.\n- Confirm the change falls under `pilot` and note who approved it.\n- Confirm the change falls under `dach` and note who approved it.\n- Check the 1 source cited below are still current.\n\n### Steps\n\n1. Open the request and confirm the scope with the requester.\n2. Apply the procedure as written; record each exception rather than skipping a step.\n3. Ask a second reviewer to check the evidence before the change closes.\n\n### Known gaps\n\n- The approval chain for a cross-region request is not written down.,- The rollback threshold is stated qualitatively and needs a number.\n\n### Review\n\nNext review due **2026-10-24**. Current confidence **62%** across 1,068 reads in the last 30 days.",
+      "created": "2025-07-03",
+      "lastEditor": "Marcus Lee",
+      "version": 3,
+      "reviewers": [
+        "Marcus Lee"
+      ],
+      "dueReview": "2026-10-24",
+      "viewsLast30": 1068,
+      "viewsTrend": [
+        {
+          "x": "2026-09-30",
+          "y": 113
+        },
+        {
+          "x": "2026-10-01",
+          "y": 102
+        },
+        {
+          "x": "2026-10-02",
+          "y": 82
+        },
+        {
+          "x": "2026-10-03",
+          "y": 87
+        },
+        {
+          "x": "2026-10-04",
+          "y": 90
+        },
+        {
+          "x": "2026-10-05",
+          "y": 114
+        },
+        {
+          "x": "2026-10-06",
+          "y": 122
+        },
+        {
+          "x": "2026-10-07",
+          "y": 136
+        },
+        {
+          "x": "2026-10-08",
+          "y": 123
+        },
+        {
+          "x": "2026-10-09",
+          "y": 115
+        }
+      ],
+      "tags": [
+        "pricing",
+        "pilot",
+        "dach"
+      ],
+      "relatedIds": [
+        "art-005",
+        "art-020"
+      ],
+      "citations": [
+        {
+          "id": "ext-pricing-council",
+          "label": "Pricing council minutes",
+          "kind": "internal"
+        }
+      ],
+      "sourceOfTruth": "internal"
+    },
+    {
+      "id": "art-012",
+      "title": "Log retention and deletion matrix",
+      "topic": "Compliance",
+      "status": "Published",
+      "owner": "Sam Okafor",
+      "updated": "2026-09-15",
+      "reads": 1230,
+      "gaps": 0,
+      "confidence": 0.86,
+      "summary": "Which log families may be kept for 30, 90 or 400 days, who signs each exception, and the deletion job that enforces it nightly.",
+      "body": "## Log retention and deletion matrix\n\nWhich log families may be kept for 30, 90 or 400 days, who signs each exception, and the deletion job that enforces it nightly.\n\n### When to use this\n\nThis is the reference for **Compliance** work owned by Sam Okafor. It is at version 0 and was last edited by Marcus Lee on 2026-09-15.\n\n### Before you start\n\n- Confirm the change falls under `logs` and note who approved it.\n- Confirm the change falls under `retention` and note who approved it.\n- Confirm the change falls under `compliance` and note who approved it.\n- Check the 2 sources cited below are still current.\n\n### Steps\n\n1. Open the request and confirm the scope with the requester.\n2. Apply the procedure as written; record each exception rather than skipping a step.\n3. Ask a second reviewer to check the evidence before the change closes.\n\n### Known gaps\n\nNo open gaps. Raise one from a support thread if the procedure does not cover your case.\n\n### Review\n\nNext review due **2026-11-14**. Current confidence **86%** across 1,107 reads in the last 30 days.",
+      "created": "2025-12-15",
+      "lastEditor": "Marcus Lee",
+      "version": 0,
+      "reviewers": [
+        "Marcus Lee"
+      ],
+      "dueReview": "2026-11-14",
+      "viewsLast30": 1107,
+      "viewsTrend": [
+        {
+          "x": "2026-09-06",
+          "y": 117
+        },
+        {
+          "x": "2026-09-07",
+          "y": 106
+        },
+        {
+          "x": "2026-09-08",
+          "y": 85
+        },
+        {
+          "x": "2026-09-09",
+          "y": 91
+        },
+        {
+          "x": "2026-09-10",
+          "y": 94
+        },
+        {
+          "x": "2026-09-11",
+          "y": 118
+        },
+        {
+          "x": "2026-09-12",
+          "y": 126
+        },
+        {
+          "x": "2026-09-13",
+          "y": 141
+        },
+        {
+          "x": "2026-09-14",
+          "y": 128
+        },
+        {
+          "x": "2026-09-15",
+          "y": 119
+        }
+      ],
+      "tags": [
+        "logs",
+        "retention",
+        "compliance"
+      ],
+      "relatedIds": [
+        "art-014",
+        "art-010"
+      ],
+      "citations": [
+        {
+          "id": "ext-retention-policy",
+          "label": "Data retention policy",
+          "kind": "regulation",
+          "url": "https://example.com/policies/retention"
+        },
+        {
+          "id": "ext-aicpa-soc2",
+          "label": "AICPA SOC 2 trust services criteria",
+          "kind": "regulation",
+          "url": "https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2"
+        }
+      ],
+      "sourceOfTruth": "regulation"
+    },
+    {
+      "id": "art-013",
+      "title": "Knowledge gap intake form walkthrough",
+      "topic": "Data quality",
+      "status": "Archived",
+      "owner": "Tom Alvarez",
+      "updated": "2026-07-18",
+      "reads": 466,
+      "gaps": 1,
+      "confidence": 0.79,
+      "summary": "How a knowledge gap gets reported from a support thread, and the fields the intake form needs before it reaches the topic owner.",
+      "body": "## Knowledge gap intake form walkthrough\n\nHow a knowledge gap gets reported from a support thread, and the fields the intake form needs before it reaches the topic owner.\n\n### When to use this\n\nThis is the reference for **Data quality** work owned by Tom Alvarez. It is at version 0 and was last edited by Sam Okafor on 2026-07-18.\n\n### Before you start\n\n- Confirm the change falls under `gaps` and note who approved it.\n- Confirm the change falls under `intake` and note who approved it.\n- Confirm the change falls under `archived` and note who approved it.\n- Check the 0 sources cited below are still current.\n\n### Steps\n\n1. Open the request and confirm the scope with the requester.\n2. Apply the procedure as written; record each exception rather than skipping a step.\n3. Ask a second reviewer to check the evidence before the change closes.\n\n### Known gaps\n\n- The approval chain for a cross-region request is not written down.\n\n### Review\n\nNext review due **2026-11-14**. Current confidence **79%** across 424 reads in the last 30 days.",
+      "created": "2025-09-24",
+      "lastEditor": "Sam Okafor",
+      "version": 0,
+      "reviewers": [
+        "Sam Okafor"
+      ],
+      "dueReview": "2026-11-14",
+      "viewsLast30": 424,
+      "viewsTrend": [
+        {
+          "x": "2026-07-09",
+          "y": 45
+        },
+        {
+          "x": "2026-07-10",
+          "y": 41
+        },
+        {
+          "x": "2026-07-11",
+          "y": 33
+        },
+        {
+          "x": "2026-07-12",
+          "y": 35
+        },
+        {
+          "x": "2026-07-13",
+          "y": 36
+        },
+        {
+          "x": "2026-07-14",
+          "y": 45
+        },
+        {
+          "x": "2026-07-15",
+          "y": 48
+        },
+        {
+          "x": "2026-07-16",
+          "y": 54
+        },
+        {
+          "x": "2026-07-17",
+          "y": 49
+        },
+        {
+          "x": "2026-07-18",
+          "y": 46
+        }
+      ],
+      "tags": [
+        "gaps",
+        "intake",
+        "archived"
+      ],
+      "relatedIds": [
+        "art-007",
+        "art-021"
+      ],
+      "citations": [],
+      "sourceOfTruth": "internal"
+    },
+    {
+      "id": "art-014",
+      "title": "SOC 2 evidence collection guide",
+      "topic": "Compliance",
+      "status": "Published",
+      "owner": "Nadia Farouk",
+      "updated": "2026-10-08",
+      "reads": 1563,
+      "gaps": 0,
+      "confidence": 0.9,
+      "summary": "Which control evidence maps to which SOC 2 trust criterion, who owns each collection, and the evidence window an auditor will accept.",
+      "body": "## SOC 2 evidence collection guide\n\nWhich control evidence maps to which SOC 2 trust criterion, who owns each collection, and the evidence window an auditor will accept.\n\n### When to use this\n\nThis is the reference for **Compliance** work owned by Nadia Farouk. It is at version 4 and was last edited by Nadia Farouk on 2026-10-08.\n\n### Before you start\n\n- Confirm the change falls under `soc2` and note who approved it.\n- Confirm the change falls under `evidence` and note who approved it.\n- Confirm the change falls under `audit` and note who approved it.\n- Check the 2 sources cited below are still current.\n\n### Steps\n\n1. Open the request and confirm the scope with the requester.\n2. Apply the procedure as written; record each exception rather than skipping a step.\n3. Ask a second reviewer to check the evidence before the change closes.\n\n### Known gaps\n\nNo open gaps. Raise one from a support thread if the procedure does not cover your case.\n\n### Review\n\nNext review due **2026-11-24**. Current confidence **90%** across 1,407 reads in the last 30 days.",
+      "created": "2025-07-02",
+      "lastEditor": "Nadia Farouk",
+      "version": 4,
+      "reviewers": [
+        "Nadia Farouk"
+      ],
+      "dueReview": "2026-11-24",
+      "viewsLast30": 1407,
+      "viewsTrend": [
+        {
+          "x": "2026-09-29",
+          "y": 149
+        },
+        {
+          "x": "2026-09-30",
+          "y": 135
+        },
+        {
+          "x": "2026-10-01",
+          "y": 109
+        },
+        {
+          "x": "2026-10-02",
+          "y": 115
+        },
+        {
+          "x": "2026-10-03",
+          "y": 119
+        },
+        {
+          "x": "2026-10-04",
+          "y": 150
+        },
+        {
+          "x": "2026-10-05",
+          "y": 161
+        },
+        {
+          "x": "2026-10-06",
+          "y": 179
+        },
+        {
+          "x": "2026-10-07",
+          "y": 162
+        },
+        {
+          "x": "2026-10-08",
+          "y": 152
+        }
+      ],
+      "tags": [
+        "soc2",
+        "evidence",
+        "audit"
+      ],
+      "relatedIds": [
+        "art-010",
+        "art-012"
+      ],
+      "citations": [
+        {
+          "id": "ext-aicpa-soc2",
+          "label": "AICPA SOC 2 trust services criteria",
+          "kind": "regulation",
+          "url": "https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2"
+        },
+        {
+          "id": "ext-iso27001",
+          "label": "ISO/IEC 27001:2022 Annex A",
+          "kind": "regulation",
+          "url": "https://www.iso.org/standard/27001"
+        }
+      ],
+      "sourceOfTruth": "regulation"
+    },
+    {
+      "id": "art-015",
+      "title": "Backup restore test schedule",
+      "topic": "Reliability",
+      "status": "Published",
+      "owner": "Sam Okafor",
+      "updated": "2026-10-05",
+      "reads": 821,
+      "gaps": 0,
+      "confidence": 0.9,
+      "summary": "The restore test cadence per dataset tier, the pass criteria for a clean restore, and the escalation path when one fails.",
+      "body": "## Backup restore test schedule\n\nThe restore test cadence per dataset tier, the pass criteria for a clean restore, and the escalation path when one fails.\n\n### When to use this\n\nThis is the reference for **Reliability** work owned by Sam Okafor. It is at version 1 and was last edited by Priya Raman on 2026-10-05.\n\n### Before you start\n\n- Confirm the change falls under `backup` and note who approved it.\n- Confirm the change falls under `restore` and note who approved it.\n- Confirm the change falls under `schedule` and note who approved it.\n- Check the 1 source cited below are still current.\n\n### Steps\n\n1. Open the request and confirm the scope with the requester.\n2. Apply the procedure as written; record each exception rather than skipping a step.\n3. Ask a second reviewer to check the evidence before the change closes.\n\n### Known gaps\n\nNo open gaps. Raise one from a support thread if the procedure does not cover your case.\n\n### Review\n\nNext review due **2026-11-14**. Current confidence **90%** across 755 reads in the last 30 days.",
+      "created": "2025-11-19",
+      "lastEditor": "Priya Raman",
+      "version": 1,
+      "reviewers": [
+        "Priya Raman"
+      ],
+      "dueReview": "2026-11-14",
+      "viewsLast30": 755,
+      "viewsTrend": [
+        {
+          "x": "2026-09-26",
+          "y": 80
+        },
+        {
+          "x": "2026-09-27",
+          "y": 72
+        },
+        {
+          "x": "2026-09-28",
+          "y": 58
+        },
+        {
+          "x": "2026-09-29",
+          "y": 62
+        },
+        {
+          "x": "2026-09-30",
+          "y": 64
+        },
+        {
+          "x": "2026-10-01",
+          "y": 80
+        },
+        {
+          "x": "2026-10-02",
+          "y": 86
+        },
+        {
+          "x": "2026-10-03",
+          "y": 96
+        },
+        {
+          "x": "2026-10-04",
+          "y": 87
+        },
+        {
+          "x": "2026-10-05",
+          "y": 81
+        }
+      ],
+      "tags": [
+        "backup",
+        "restore",
+        "schedule"
+      ],
+      "relatedIds": [
+        "art-023",
+        "art-003"
+      ],
+      "citations": [
+        {
+          "id": "ext-oncall",
+          "label": "On-call escalation rota",
+          "kind": "internal"
+        }
+      ],
+      "sourceOfTruth": "internal"
+    },
+    {
+      "id": "art-016",
+      "title": "Internal AI review board charter",
+      "topic": "Internal AI usage",
+      "status": "Draft",
+      "owner": "Lena Fischer",
+      "updated": "2026-10-10",
+      "reads": 352,
+      "gaps": 3,
+      "confidence": 0.51,
+      "summary": "Charter draft for the review board that signs off internal model changes: membership, quorum, and the evidence each submission must carry.",
+      "body": "## Internal AI review board charter\n\nCharter draft for the review board that signs off internal model changes: membership, quorum, and the evidence each submission must carry.\n\n### When to use this\n\nThis is the reference for **Internal AI usage** work owned by Lena Fischer. It is at version 0 and was last edited by Nadia Farouk on 2026-10-10.\n\n### Before you start\n\n- Confirm the change falls under `governance` and note who approved it.\n- Confirm the change falls under `charter` and note who approved it.\n- Confirm the change falls under `draft` and note who approved it.\n- Check the 1 source cited below are still current.\n\n### Steps\n\n1. Open the request and confirm the scope with the requester.\n2. Apply the procedure as written; record each exception rather than skipping a step.\n3. Ask a second reviewer to check the evidence before the change closes.\n\n### Known gaps\n\n- The approval chain for a cross-region request is not written down.,- The rollback threshold is stated qualitatively and needs a number.,- No owner is named for the quarterly re-read.\n\n### Review\n\nNext review due **2026-11-14**. Current confidence **51%** across 289 reads in the last 30 days.",
+      "created": "2025-11-01",
+      "lastEditor": "Nadia Farouk",
+      "version": 0,
+      "reviewers": [
+        "Tom Alvarez",
+        "Nadia Farouk"
+      ],
+      "dueReview": "2026-11-14",
+      "viewsLast30": 289,
+      "viewsTrend": [
+        {
+          "x": "2026-10-01",
+          "y": 31
+        },
+        {
+          "x": "2026-10-02",
+          "y": 28
+        },
+        {
+          "x": "2026-10-03",
+          "y": 22
+        },
+        {
+          "x": "2026-10-04",
+          "y": 24
+        },
+        {
+          "x": "2026-10-05",
+          "y": 24
+        },
+        {
+          "x": "2026-10-06",
+          "y": 31
+        },
+        {
+          "x": "2026-10-07",
+          "y": 33
+        },
+        {
+          "x": "2026-10-08",
+          "y": 37
+        },
+        {
+          "x": "2026-10-09",
+          "y": 33
+        },
+        {
+          "x": "2026-10-10",
+          "y": 31
+        }
+      ],
+      "tags": [
+        "governance",
+        "charter",
+        "draft"
+      ],
+      "relatedIds": [
+        "art-008",
+        "art-009",
+        "art-005"
+      ],
+      "citations": [
+        {
+          "id": "ext-model-cards",
+          "label": "Internal model cards index",
+          "kind": "internal"
+        }
+      ],
+      "sourceOfTruth": "internal"
+    },
+    {
+      "id": "art-017",
+      "title": "Onboarding checklist for admins",
+      "topic": "Onboarding",
+      "status": "Published",
+      "owner": "Marcus Lee",
+      "updated": "2026-10-11",
+      "reads": 3105,
+      "gaps": 0,
+      "confidence": 0.94,
+      "summary": "The admin-side checklist for an enterprise tenant: identity config, data residency, initial roles, and the go-live verification call.",
+      "body": "## Onboarding checklist for admins\n\nThe admin-side checklist for an enterprise tenant: identity config, data residency, initial roles, and the go-live verification call.\n\n### When to use this\n\nThis is the reference for **Onboarding** work owned by Marcus Lee. It is at version 3 and was last edited by Lena Fischer on 2026-10-11.\n\n### Before you start\n\n- Confirm the change falls under `onboarding` and note who approved it.\n- Confirm the change falls under `admin` and note who approved it.\n- Confirm the change falls under `checklist` and note who approved it.\n- Check the 2 sources cited below are still current.\n\n### Steps\n\n1. Open the request and confirm the scope with the requester.\n2. Apply the procedure as written; record each exception rather than skipping a step.\n3. Ask a second reviewer to check the evidence before the change closes.\n\n### Known gaps\n\nNo open gaps. Raise one from a support thread if the procedure does not cover your case.\n\n### Review\n\nNext review due **2026-11-14**. Current confidence **94%** across 2,577 reads in the last 30 days.",
+      "created": "2025-10-10",
+      "lastEditor": "Lena Fischer",
+      "version": 3,
+      "reviewers": [
+        "Lena Fischer"
+      ],
+      "dueReview": "2026-11-14",
+      "viewsLast30": 2577,
+      "viewsTrend": [
+        {
+          "x": "2026-10-02",
+          "y": 273
+        },
+        {
+          "x": "2026-10-03",
+          "y": 247
+        },
+        {
+          "x": "2026-10-04",
+          "y": 199
+        },
+        {
+          "x": "2026-10-05",
+          "y": 211
+        },
+        {
+          "x": "2026-10-06",
+          "y": 218
+        },
+        {
+          "x": "2026-10-07",
+          "y": 274
+        },
+        {
+          "x": "2026-10-08",
+          "y": 294
+        },
+        {
+          "x": "2026-10-09",
+          "y": 327
+        },
+        {
+          "x": "2026-10-10",
+          "y": 297
+        },
+        {
+          "x": "2026-10-11",
+          "y": 278
+        }
+      ],
+      "tags": [
+        "onboarding",
+        "admin",
+        "checklist"
+      ],
+      "relatedIds": [
+        "art-019",
+        "art-028"
+      ],
+      "citations": [
+        {
+          "id": "ext-onboarding-kit",
+          "label": "Enterprise onboarding kit",
+          "kind": "internal"
+        },
+        {
+          "id": "ext-rbac-model",
+          "label": "Role-based access control model",
+          "kind": "internal"
+        }
+      ],
+      "sourceOfTruth": "internal"
+    },
+    {
+      "id": "art-018",
+      "title": "Security questionnaire turnaround time",
+      "topic": "Security",
+      "status": "Needs review",
+      "owner": "Nadia Farouk",
+      "updated": "2026-10-02",
+      "reads": 615,
+      "gaps": 1,
+      "confidence": 0.74,
+      "summary": "The eight-week target for a completed security questionnaire, the four questions that stall every time, and the escalation when one goes unanswered.",
+      "body": "## Security questionnaire turnaround time\n\nThe eight-week target for a completed security questionnaire, the four questions that stall every time, and the escalation when one goes unanswered.\n\n### When to use this\n\nThis is the reference for **Security** work owned by Nadia Farouk. It is at version 1 and was last edited by Nadia Farouk on 2026-10-02.\n\n### Before you start\n\n- Confirm the change falls under `questionnaire` and note who approved it.\n- Confirm the change falls under `sla` and note who approved it.\n- Confirm the change falls under `security-review` and note who approved it.\n- Check the 2 sources cited below are still current.\n\n### Steps\n\n1. Open the request and confirm the scope with the requester.\n2. Apply the procedure as written; record each exception rather than skipping a step.\n3. Ask a second reviewer to check the evidence before the change closes.\n\n### Known gaps\n\n- The approval chain for a cross-region request is not written down.\n\n### Review\n\nNext review due **2026-10-21**. Current confidence **74%** across 517 reads in the last 30 days.",
+      "created": "2025-09-08",
+      "lastEditor": "Nadia Farouk",
+      "version": 1,
+      "reviewers": [
+        "Nadia Farouk"
+      ],
+      "dueReview": "2026-10-21",
+      "viewsLast30": 517,
+      "viewsTrend": [
+        {
+          "x": "2026-09-23",
+          "y": 55
+        },
+        {
+          "x": "2026-09-24",
+          "y": 49
+        },
+        {
+          "x": "2026-09-25",
+          "y": 40
+        },
+        {
+          "x": "2026-09-26",
+          "y": 42
+        },
+        {
+          "x": "2026-09-27",
+          "y": 44
+        },
+        {
+          "x": "2026-09-28",
+          "y": 55
+        },
+        {
+          "x": "2026-09-29",
+          "y": 59
+        },
+        {
+          "x": "2026-09-30",
+          "y": 66
+        },
+        {
+          "x": "2026-10-01",
+          "y": 60
+        },
+        {
+          "x": "2026-10-02",
+          "y": 56
+        }
+      ],
+      "tags": [
+        "questionnaire",
+        "sla",
+        "security-review"
+      ],
+      "relatedIds": [
+        "art-001",
+        "art-004",
+        "art-002"
+      ],
+      "citations": [
+        {
+          "id": "ext-aicpa-soc2",
+          "label": "AICPA SOC 2 trust services criteria",
+          "kind": "regulation",
+          "url": "https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2"
+        },
+        {
+          "id": "ext-vendor-dpa",
+          "label": "Vendor data processing addendum",
+          "kind": "vendor",
+          "url": "https://example.com/legal/dpa"
+        }
+      ],
+      "sourceOfTruth": "vendor"
+    },
+    {
+      "id": "art-019",
+      "title": "Enterprise onboarding sequence",
+      "topic": "Onboarding",
+      "status": "Draft",
+      "owner": "Marcus Lee",
+      "updated": "2026-10-06",
+      "reads": 412,
+      "gaps": 3,
+      "confidence": 0.44,
+      "summary": "The sequence an enterprise customer works through from kickoff to first value, with the owner and exit criteria for each of the six stages.",
+      "body": "## Enterprise onboarding sequence\n\nThe sequence an enterprise customer works through from kickoff to first value, with the owner and exit criteria for each of the six stages.\n\n### When to use this\n\nThis is the reference for **Onboarding** work owned by Marcus Lee. It is at version 2 and was last edited by Marcus Lee on 2026-10-06.\n\n### Before you start\n\n- Confirm the change falls under `onboarding` and note who approved it.\n- Confirm the change falls under `enterprise` and note who approved it.\n- Confirm the change falls under `sequence` and note who approved it.\n- Check the 1 source cited below are still current.\n\n### Steps\n\n1. Open the request and confirm the scope with the requester.\n2. Apply the procedure as written; record each exception rather than skipping a step.\n3. Ask a second reviewer to check the evidence before the change closes.\n\n### Known gaps\n\n- The approval chain for a cross-region request is not written down.,- The rollback threshold is stated qualitatively and needs a number.,- No owner is named for the quarterly re-read.\n\n### Review\n\nNext review due **2026-11-24**. Current confidence **44%** across 371 reads in the last 30 days.",
+      "created": "2025-06-30",
+      "lastEditor": "Marcus Lee",
+      "version": 2,
+      "reviewers": [
+        "Marcus Lee"
+      ],
+      "dueReview": "2026-11-24",
+      "viewsLast30": 371,
+      "viewsTrend": [
+        {
+          "x": "2026-09-27",
+          "y": 39
+        },
+        {
+          "x": "2026-09-28",
+          "y": 36
+        },
+        {
+          "x": "2026-09-29",
+          "y": 29
+        },
+        {
+          "x": "2026-09-30",
+          "y": 30
+        },
+        {
+          "x": "2026-10-01",
+          "y": 31
+        },
+        {
+          "x": "2026-10-02",
+          "y": 39
+        },
+        {
+          "x": "2026-10-03",
+          "y": 42
+        },
+        {
+          "x": "2026-10-04",
+          "y": 47
+        },
+        {
+          "x": "2026-10-05",
+          "y": 43
+        },
+        {
+          "x": "2026-10-06",
+          "y": 40
+        }
+      ],
+      "tags": [
+        "onboarding",
+        "enterprise",
+        "sequence"
+      ],
+      "relatedIds": [
+        "art-017",
+        "art-028"
+      ],
+      "citations": [
+        {
+          "id": "ext-onboarding-kit",
+          "label": "Enterprise onboarding kit",
+          "kind": "internal"
+        }
+      ],
+      "sourceOfTruth": "internal"
+    },
+    {
+      "id": "art-020",
+      "title": "Contract metadata standards",
+      "topic": "Cost optimisation",
+      "status": "Published",
+      "owner": "Marcus Lee",
+      "updated": "2026-09-25",
+      "reads": 1044,
+      "gaps": 0,
+      "confidence": 0.87,
+      "summary": "Required fields on every contract record, who may change each, and the validation that blocks a contract closing without them.",
+      "body": "## Contract metadata standards\n\nRequired fields on every contract record, who may change each, and the validation that blocks a contract closing without them.\n\n### When to use this\n\nThis is the reference for **Cost optimisation** work owned by Marcus Lee. It is at version 1 and was last edited by Marcus Lee on 2026-09-25.\n\n### Before you start\n\n- Confirm the change falls under `contracts` and note who approved it.\n- Confirm the change falls under `metadata` and note who approved it.\n- Confirm the change falls under `validation` and note who approved it.\n- Check the 2 sources cited below are still current.\n\n### Steps\n\n1. Open the request and confirm the scope with the requester.\n2. Apply the procedure as written; record each exception rather than skipping a step.\n3. Ask a second reviewer to check the evidence before the change closes.\n\n### Known gaps\n\nNo open gaps. Raise one from a support thread if the procedure does not cover your case.\n\n### Review\n\nNext review due **2026-11-14**. Current confidence **87%** across 887 reads in the last 30 days.",
+      "created": "2025-08-09",
+      "lastEditor": "Marcus Lee",
+      "version": 1,
+      "reviewers": [
+        "Marcus Lee"
+      ],
+      "dueReview": "2026-11-14",
+      "viewsLast30": 887,
+      "viewsTrend": [
+        {
+          "x": "2026-09-16",
+          "y": 78
+        },
+        {
+          "x": "2026-09-17",
+          "y": 71
+        },
+        {
+          "x": "2026-09-18",
+          "y": 74
+        },
+        {
+          "x": "2026-09-19",
+          "y": 74
+        },
+        {
+          "x": "2026-09-20",
+          "y": 92
+        },
+        {
+          "x": "2026-09-21",
+          "y": 108
+        },
+        {
+          "x": "2026-09-22",
+          "y": 106
+        },
+        {
+          "x": "2026-09-23",
+          "y": 106
+        },
+        {
+          "x": "2026-09-24",
+          "y": 97
+        },
+        {
+          "x": "2026-09-25",
+          "y": 75
+        }
+      ],
+      "tags": [
+        "contracts",
+        "metadata",
+        "validation"
+      ],
+      "relatedIds": [
+        "art-011",
+        "art-005"
+      ],
+      "citations": [
+        {
+          "id": "ext-vendor-dpa",
+          "label": "Vendor data processing addendum",
+          "kind": "vendor",
+          "url": "https://example.com/legal/dpa"
+        },
+        {
+          "id": "ext-retention-policy",
+          "label": "Data retention policy",
+          "kind": "regulation",
+          "url": "https://example.com/policies/retention"
+        }
+      ],
+      "sourceOfTruth": "internal"
+    },
+    {
+      "id": "art-021",
+      "title": "Analytics event naming convention",
+      "topic": "Data quality",
+      "status": "Published",
+      "owner": "Tom Alvarez",
+      "updated": "2026-08-30",
+      "reads": 1455,
+      "gaps": 0,
+      "confidence": 0.89,
+      "summary": "How product events are named and structured, the properties every event must carry, and the registry that rejects an unregistered name.",
+      "body": "## Analytics event naming convention\n\nHow product events are named and structured, the properties every event must carry, and the registry that rejects an unregistered name.\n\n### When to use this\n\nThis is the reference for **Data quality** work owned by Tom Alvarez. It is at version 2 and was last edited by Sam Okafor on 2026-08-30.\n\n### Before you start\n\n- Confirm the change falls under `analytics` and note who approved it.\n- Confirm the change falls under `events` and note who approved it.\n- Confirm the change falls under `naming` and note who approved it.\n- Check the 0 sources cited below are still current.\n\n### Steps\n\n1. Open the request and confirm the scope with the requester.\n2. Apply the procedure as written; record each exception rather than skipping a step.\n3. Ask a second reviewer to check the evidence before the change closes.\n\n### Known gaps\n\nNo open gaps. Raise one from a support thread if the procedure does not cover your case.\n\n### Review\n\nNext review due **2026-11-14**. Current confidence **89%** across 1,251 reads in the last 30 days.",
+      "created": "2025-06-21",
+      "lastEditor": "Sam Okafor",
+      "version": 2,
+      "reviewers": [
+        "Sam Okafor"
+      ],
+      "dueReview": "2026-11-14",
+      "viewsLast30": 1251,
+      "viewsTrend": [
+        {
+          "x": "2026-08-21",
+          "y": 110
+        },
+        {
+          "x": "2026-08-22",
+          "y": 100
+        },
+        {
+          "x": "2026-08-23",
+          "y": 104
+        },
+        {
+          "x": "2026-08-24",
+          "y": 104
+        },
+        {
+          "x": "2026-08-25",
+          "y": 129
+        },
+        {
+          "x": "2026-08-26",
+          "y": 153
+        },
+        {
+          "x": "2026-08-27",
+          "y": 150
+        },
+        {
+          "x": "2026-08-28",
+          "y": 149
+        },
+        {
+          "x": "2026-08-29",
+          "y": 137
+        },
+        {
+          "x": "2026-08-30",
+          "y": 106
+        }
+      ],
+      "tags": [
+        "analytics",
+        "events",
+        "naming"
+      ],
+      "relatedIds": [
+        "art-007",
+        "art-013"
+      ],
+      "citations": [],
+      "sourceOfTruth": "internal"
+    },
+    {
+      "id": "art-022",
+      "title": "Premium support escalation override",
+      "topic": "Customer support",
+      "status": "Draft",
+      "owner": "Priya Raman",
+      "updated": "2026-10-04",
+      "reads": 288,
+      "gaps": 2,
+      "confidence": 0.64,
+      "summary": "Draft override path for premium accounts: who may approve a response-time exception, what the customer is told, and how it is logged.",
+      "body": "## Premium support escalation override\n\nDraft override path for premium accounts: who may approve a response-time exception, what the customer is told, and how it is logged.\n\n### When to use this\n\nThis is the reference for **Customer support** work owned by Priya Raman. It is at version 1 and was last edited by Priya Raman on 2026-10-04.\n\n### Before you start\n\n- Confirm the change falls under `premium` and note who approved it.\n- Confirm the change falls under `override` and note who approved it.\n- Confirm the change falls under `draft` and note who approved it.\n- Check the 1 source cited below are still current.\n\n### Steps\n\n1. Open the request and confirm the scope with the requester.\n2. Apply the procedure as written; record each exception rather than skipping a step.\n3. Ask a second reviewer to check the evidence before the change closes.\n\n### Known gaps\n\n- The approval chain for a cross-region request is not written down.,- The rollback threshold is stated qualitatively and needs a number.\n\n### Review\n\nNext review due **2026-11-14**. Current confidence **64%** across 251 reads in the last 30 days.",
+      "created": "2025-07-03",
+      "lastEditor": "Priya Raman",
+      "version": 1,
+      "reviewers": [
+        "Priya Raman",
+        "Lena Fischer"
+      ],
+      "dueReview": "2026-11-14",
+      "viewsLast30": 251,
+      "viewsTrend": [
+        {
+          "x": "2026-09-25",
+          "y": 22
+        },
+        {
+          "x": "2026-09-26",
+          "y": 20
+        },
+        {
+          "x": "2026-09-27",
+          "y": 21
+        },
+        {
+          "x": "2026-09-28",
+          "y": 21
+        },
+        {
+          "x": "2026-09-29",
+          "y": 26
+        },
+        {
+          "x": "2026-09-30",
+          "y": 31
+        },
+        {
+          "x": "2026-10-01",
+          "y": 30
+        },
+        {
+          "x": "2026-10-02",
+          "y": 30
+        },
+        {
+          "x": "2026-10-03",
+          "y": 28
+        },
+        {
+          "x": "2026-10-04",
+          "y": 21
+        }
+      ],
+      "tags": [
+        "premium",
+        "override",
+        "draft"
+      ],
+      "relatedIds": [
+        "art-002",
+        "art-006",
+        "art-005"
+      ],
+      "citations": [
+        {
+          "id": "ext-sla-matrix",
+          "label": "Support SLA tier definitions",
+          "kind": "internal"
+        }
+      ],
+      "sourceOfTruth": "internal"
+    },
+    {
+      "id": "art-023",
+      "title": "Incident response runbook",
+      "topic": "Reliability",
+      "status": "Published",
+      "owner": "Sam Okafor",
+      "updated": "2026-10-03",
+      "reads": 2876,
+      "gaps": 0,
+      "confidence": 0.96,
+      "summary": "What to do in the first fifteen minutes of an incident: who declares, who communicates, and the handover cadence until the postmortem.",
+      "body": "## Incident response runbook\n\nWhat to do in the first fifteen minutes of an incident: who declares, who communicates, and the handover cadence until the postmortem.\n\n### When to use this\n\nThis is the reference for **Reliability** work owned by Sam Okafor. It is at version 15 and was last edited by Sam Okafor on 2026-10-03.\n\n### Before you start\n\n- Confirm the change falls under `incident` and note who approved it.\n- Confirm the change falls under `oncall` and note who approved it.\n- Confirm the change falls under `runbook` and note who approved it.\n- Check the 2 sources cited below are still current.\n\n### Steps\n\n1. Open the request and confirm the scope with the requester.\n2. Apply the procedure as written; record each exception rather than skipping a step.\n3. Ask a second reviewer to check the evidence before the change closes.\n\n### Known gaps\n\nNo open gaps. Raise one from a support thread if the procedure does not cover your case.\n\n### Review\n\nNext review due **2026-11-24**. Current confidence **96%** across 2,617 reads in the last 30 days.",
+      "created": "2025-06-20",
+      "lastEditor": "Sam Okafor",
+      "version": 15,
+      "reviewers": [
+        "Sam Okafor"
+      ],
+      "dueReview": "2026-11-24",
+      "viewsLast30": 2617,
+      "viewsTrend": [
+        {
+          "x": "2026-09-24",
+          "y": 230
+        },
+        {
+          "x": "2026-09-25",
+          "y": 210
+        },
+        {
+          "x": "2026-09-26",
+          "y": 217
+        },
+        {
+          "x": "2026-09-27",
+          "y": 218
+        },
+        {
+          "x": "2026-09-28",
+          "y": 271
+        },
+        {
+          "x": "2026-09-29",
+          "y": 320
+        },
+        {
+          "x": "2026-09-30",
+          "y": 314
+        },
+        {
+          "x": "2026-10-01",
+          "y": 312
+        },
+        {
+          "x": "2026-10-02",
+          "y": 287
+        },
+        {
+          "x": "2026-10-03",
+          "y": 221
+        }
+      ],
+      "tags": [
+        "incident",
+        "oncall",
+        "runbook"
+      ],
+      "relatedIds": [
+        "art-003",
+        "art-015"
+      ],
+      "citations": [
+        {
+          "id": "ext-incident-form",
+          "label": "Incident review form",
+          "kind": "runbook",
+          "url": "https://example.com/runbooks/incident-review"
+        },
+        {
+          "id": "ext-oncall",
+          "label": "On-call escalation rota",
+          "kind": "internal"
+        }
+      ],
+      "sourceOfTruth": "internal"
+    },
+    {
+      "id": "art-024",
+      "title": "EU data residency decision record",
+      "topic": "Compliance",
+      "status": "Published",
+      "owner": "Nadia Farouk",
+      "updated": "2026-08-12",
+      "reads": 1760,
+      "gaps": 0,
+      "confidence": 0.93,
+      "summary": "The decision, the options considered and the constraints that settled it, with the sub-processor list and the date it was last verified.",
+      "body": "## EU data residency decision record\n\nThe decision, the options considered and the constraints that settled it, with the sub-processor list and the date it was last verified.\n\n### When to use this\n\nThis is the reference for **Compliance** work owned by Nadia Farouk. It is at version 1 and was last edited by Tom Alvarez on 2026-08-12.\n\n### Before you start\n\n- Confirm the change falls under `residency` and note who approved it.\n- Confirm the change falls under `decision-record` and note who approved it.\n- Confirm the change falls under `gdpr` and note who approved it.\n- Check the 2 sources cited below are still current.\n\n### Steps\n\n1. Open the request and confirm the scope with the requester.\n2. Apply the procedure as written; record each exception rather than skipping a step.\n3. Ask a second reviewer to check the evidence before the change closes.\n\n### Known gaps\n\nNo open gaps. Raise one from a support thread if the procedure does not cover your case.\n\n### Review\n\nNext review due **2026-11-14**. Current confidence **93%** across 1,549 reads in the last 30 days.",
+      "created": "2025-04-18",
+      "lastEditor": "Tom Alvarez",
+      "version": 1,
+      "reviewers": [
+        "Tom Alvarez"
+      ],
+      "dueReview": "2026-11-14",
+      "viewsLast30": 1549,
+      "viewsTrend": [
+        {
+          "x": "2026-08-03",
+          "y": 136
+        },
+        {
+          "x": "2026-08-04",
+          "y": 124
+        },
+        {
+          "x": "2026-08-05",
+          "y": 128
+        },
+        {
+          "x": "2026-08-06",
+          "y": 129
+        },
+        {
+          "x": "2026-08-07",
+          "y": 160
+        },
+        {
+          "x": "2026-08-08",
+          "y": 189
+        },
+        {
+          "x": "2026-08-09",
+          "y": 186
+        },
+        {
+          "x": "2026-08-10",
+          "y": 185
+        },
+        {
+          "x": "2026-08-11",
+          "y": 170
+        },
+        {
+          "x": "2026-08-12",
+          "y": 131
+        }
+      ],
+      "tags": [
+        "residency",
+        "decision-record",
+        "gdpr"
+      ],
+      "relatedIds": [
+        "art-014",
+        "art-010"
+      ],
+      "citations": [
+        {
+          "id": "ext-gdpr-art30",
+          "label": "GDPR Article 30 record of processing",
+          "kind": "regulation",
+          "url": "https://gdpr-info.eu/art-30-gdpr/"
+        },
+        {
+          "id": "ext-privacy-notice",
+          "label": "Customer privacy notice",
+          "kind": "external",
+          "url": "https://example.com/legal/privacy"
+        }
+      ],
+      "sourceOfTruth": "regulation"
+    },
+    {
+      "id": "art-025",
+      "title": "Handoff checklist between support teams",
+      "topic": "Customer support",
+      "status": "Needs review",
+      "owner": "Priya Raman",
+      "updated": "2026-09-08",
+      "reads": 903,
+      "gaps": 2,
+      "confidence": 0.69,
+      "summary": "What transfers in a support handoff, the summary a receiving agent must be able to write without asking again, and the two cases that need a call.",
+      "body": "## Handoff checklist between support teams\n\nWhat transfers in a support handoff, the summary a receiving agent must be able to write without asking again, and the two cases that need a call.\n\n### When to use this\n\nThis is the reference for **Customer support** work owned by Priya Raman. It is at version 1 and was last edited by Lena Fischer on 2026-09-08.\n\n### Before you start\n\n- Confirm the change falls under `handoff` and note who approved it.\n- Confirm the change falls under `support` and note who approved it.\n- Confirm the change falls under `continuity` and note who approved it.\n- Check the 1 source cited below are still current.\n\n### Steps\n\n1. Open the request and confirm the scope with the requester.\n2. Apply the procedure as written; record each exception rather than skipping a step.\n3. Ask a second reviewer to check the evidence before the change closes.\n\n### Known gaps\n\n- The approval chain for a cross-region request is not written down.,- The rollback threshold is stated qualitatively and needs a number.\n\n### Review\n\nNext review due **2026-09-19**. Current confidence **69%** across 804 reads in the last 30 days.",
+      "created": "2025-04-22",
+      "lastEditor": "Lena Fischer",
+      "version": 1,
+      "reviewers": [
+        "Lena Fischer",
+        "Marcus Lee"
+      ],
+      "dueReview": "2026-09-19",
+      "viewsLast30": 804,
+      "viewsTrend": [
+        {
+          "x": "2026-08-30",
+          "y": 71
+        },
+        {
+          "x": "2026-08-31",
+          "y": 64
+        },
+        {
+          "x": "2026-09-01",
+          "y": 67
+        },
+        {
+          "x": "2026-09-02",
+          "y": 67
+        },
+        {
+          "x": "2026-09-03",
+          "y": 83
+        },
+        {
+          "x": "2026-09-04",
+          "y": 98
+        },
+        {
+          "x": "2026-09-05",
+          "y": 96
+        },
+        {
+          "x": "2026-09-06",
+          "y": 96
+        },
+        {
+          "x": "2026-09-07",
+          "y": 88
+        },
+        {
+          "x": "2026-09-08",
+          "y": 68
+        }
+      ],
+      "tags": [
+        "handoff",
+        "support",
+        "continuity"
+      ],
+      "relatedIds": [
+        "art-002",
+        "art-006",
+        "art-009"
+      ],
+      "citations": [
+        {
+          "id": "ext-sla-matrix",
+          "label": "Support SLA tier definitions",
+          "kind": "internal"
+        }
+      ],
+      "sourceOfTruth": "internal"
+    },
+    {
+      "id": "art-026",
+      "title": "Cost per resolved ticket",
+      "topic": "Cost optimisation",
+      "status": "Published",
+      "owner": "Marcus Lee",
+      "updated": "2026-10-09",
+      "reads": 1122,
+      "gaps": 0,
+      "confidence": 0.84,
+      "summary": "How cost per resolved ticket is calculated, which costs are included, and the two tickets excluded as not comparable.",
+      "body": "## Cost per resolved ticket\n\nHow cost per resolved ticket is calculated, which costs are included, and the two tickets excluded as not comparable.\n\n### When to use this\n\nThis is the reference for **Cost optimisation** work owned by Marcus Lee. It is at version 2 and was last edited by Nadia Farouk on 2026-10-09.\n\n### Before you start\n\n- Confirm the change falls under `cost` and note who approved it.\n- Confirm the change falls under `metrics` and note who approved it.\n- Confirm the change falls under `support` and note who approved it.\n- Check the 2 sources cited below are still current.\n\n### Steps\n\n1. Open the request and confirm the scope with the requester.\n2. Apply the procedure as written; record each exception rather than skipping a step.\n3. Ask a second reviewer to check the evidence before the change closes.\n\n### Known gaps\n\nNo open gaps. Raise one from a support thread if the procedure does not cover your case.\n\n### Review\n\nNext review due **2026-11-14**. Current confidence **84%** across 1,010 reads in the last 30 days.",
+      "created": "2025-04-30",
+      "lastEditor": "Nadia Farouk",
+      "version": 2,
+      "reviewers": [
+        "Nadia Farouk"
+      ],
+      "dueReview": "2026-11-14",
+      "viewsLast30": 1010,
+      "viewsTrend": [
+        {
+          "x": "2026-09-30",
+          "y": 89
+        },
+        {
+          "x": "2026-10-01",
+          "y": 81
+        },
+        {
+          "x": "2026-10-02",
+          "y": 84
+        },
+        {
+          "x": "2026-10-03",
+          "y": 84
+        },
+        {
+          "x": "2026-10-04",
+          "y": 104
+        },
+        {
+          "x": "2026-10-05",
+          "y": 123
+        },
+        {
+          "x": "2026-10-06",
+          "y": 121
+        },
+        {
+          "x": "2026-10-07",
+          "y": 121
+        },
+        {
+          "x": "2026-10-08",
+          "y": 111
+        },
+        {
+          "x": "2026-10-09",
+          "y": 85
+        }
+      ],
+      "tags": [
+        "cost",
+        "metrics",
+        "support"
+      ],
+      "relatedIds": [
+        "art-011",
+        "art-005",
+        "art-002"
+      ],
+      "citations": [
+        {
+          "id": "ext-pricing-council",
+          "label": "Pricing council minutes",
+          "kind": "internal"
+        },
+        {
+          "id": "ext-sla-matrix",
+          "label": "Support SLA tier definitions",
+          "kind": "internal"
+        }
+      ],
+      "sourceOfTruth": "internal"
+    },
+    {
+      "id": "art-027",
+      "title": "Shadow IT approval path",
+      "topic": "Security",
+      "status": "Draft",
+      "owner": "Sam Okafor",
+      "updated": "2026-07-30",
+      "reads": 521,
+      "gaps": 1,
+      "confidence": 0.72,
+      "summary": "The approval path for a tool bought outside procurement: who reviews it, what evidence is needed, and the ninety-day re-check.",
+      "body": "## Shadow IT approval path\n\nThe approval path for a tool bought outside procurement: who reviews it, what evidence is needed, and the ninety-day re-check.\n\n### When to use this\n\nThis is the reference for **Security** work owned by Sam Okafor. It is at version 1 and was last edited by Marcus Lee on 2026-07-30.\n\n### Before you start\n\n- Confirm the change falls under `shadow-it` and note who approved it.\n- Confirm the change falls under `approval` and note who approved it.\n- Confirm the change falls under `procurement` and note who approved it.\n- Check the 2 sources cited below are still current.\n\n### Steps\n\n1. Open the request and confirm the scope with the requester.\n2. Apply the procedure as written; record each exception rather than skipping a step.\n3. Ask a second reviewer to check the evidence before the change closes.\n\n### Known gaps\n\n- The approval chain for a cross-region request is not written down.\n\n### Review\n\nNext review due **2026-11-14**. Current confidence **72%** across 474 reads in the last 30 days.",
+      "created": "2025-01-26",
+      "lastEditor": "Marcus Lee",
+      "version": 1,
+      "reviewers": [
+        "Marcus Lee"
+      ],
+      "dueReview": "2026-11-14",
+      "viewsLast30": 474,
+      "viewsTrend": [
+        {
+          "x": "2026-07-21",
+          "y": 42
+        },
+        {
+          "x": "2026-07-22",
+          "y": 38
+        },
+        {
+          "x": "2026-07-23",
+          "y": 39
+        },
+        {
+          "x": "2026-07-24",
+          "y": 40
+        },
+        {
+          "x": "2026-07-25",
+          "y": 49
+        },
+        {
+          "x": "2026-07-26",
+          "y": 58
+        },
+        {
+          "x": "2026-07-27",
+          "y": 57
+        },
+        {
+          "x": "2026-07-28",
+          "y": 57
+        },
+        {
+          "x": "2026-07-29",
+          "y": 52
+        },
+        {
+          "x": "2026-07-30",
+          "y": 40
+        }
+      ],
+      "tags": [
+        "shadow-it",
+        "approval",
+        "procurement"
+      ],
+      "relatedIds": [
+        "art-001",
+        "art-004"
+      ],
+      "citations": [
+        {
+          "id": "ext-rbac-model",
+          "label": "Role-based access control model",
+          "kind": "internal"
+        },
+        {
+          "id": "ext-vendor-dpa",
+          "label": "Vendor data processing addendum",
+          "kind": "vendor",
+          "url": "https://example.com/legal/dpa"
+        }
+      ],
+      "sourceOfTruth": "internal"
+    },
+    {
+      "id": "art-028",
+      "title": "Trial-to-paid conversion playbook",
+      "topic": "Onboarding",
+      "status": "Published",
+      "owner": "Marcus Lee",
+      "updated": "2026-08-20",
+      "reads": 2650,
+      "gaps": 0,
+      "confidence": 0.91,
+      "summary": "The touches that move a trial to paid, the day each is scheduled relative to trial start, and the two moments that reliably reopen the conversation.",
+      "body": "## Trial-to-paid conversion playbook\n\nThe touches that move a trial to paid, the day each is scheduled relative to trial start, and the two moments that reliably reopen the conversation.\n\n### When to use this\n\nThis is the reference for **Onboarding** work owned by Marcus Lee. It is at version 3 and was last edited by Sam Okafor on 2026-08-20.\n\n### Before you start\n\n- Confirm the change falls under `conversion` and note who approved it.\n- Confirm the change falls under `trial` and note who approved it.\n- Confirm the change falls under `playbook` and note who approved it.\n- Check the 2 sources cited below are still current.\n\n### Steps\n\n1. Open the request and confirm the scope with the requester.\n2. Apply the procedure as written; record each exception rather than skipping a step.\n3. Ask a second reviewer to check the evidence before the change closes.\n\n### Known gaps\n\nNo open gaps. Raise one from a support thread if the procedure does not cover your case.\n\n### Review\n\nNext review due **2026-11-14**. Current confidence **91%** across 2,438 reads in the last 30 days.",
+      "created": "2025-01-24",
+      "lastEditor": "Sam Okafor",
+      "version": 3,
+      "reviewers": [
+        "Sam Okafor"
+      ],
+      "dueReview": "2026-11-14",
+      "viewsLast30": 2438,
+      "viewsTrend": [
+        {
+          "x": "2026-08-11",
+          "y": 214
+        },
+        {
+          "x": "2026-08-12",
+          "y": 195
+        },
+        {
+          "x": "2026-08-13",
+          "y": 202
+        },
+        {
+          "x": "2026-08-14",
+          "y": 203
+        },
+        {
+          "x": "2026-08-15",
+          "y": 252
+        },
+        {
+          "x": "2026-08-16",
+          "y": 298
+        },
+        {
+          "x": "2026-08-17",
+          "y": 292
+        },
+        {
+          "x": "2026-08-18",
+          "y": 291
+        },
+        {
+          "x": "2026-08-19",
+          "y": 268
+        },
+        {
+          "x": "2026-08-20",
+          "y": 206
+        }
+      ],
+      "tags": [
+        "conversion",
+        "trial",
+        "playbook"
+      ],
+      "relatedIds": [
+        "art-019",
+        "art-017"
+      ],
+      "citations": [
+        {
+          "id": "ext-onboarding-kit",
+          "label": "Enterprise onboarding kit",
+          "kind": "internal"
+        },
+        {
+          "id": "ext-pricing-council",
+          "label": "Pricing council minutes",
+          "kind": "internal"
+        }
+      ],
+      "sourceOfTruth": "internal"
+    },
+    {
+      "id": "art-029",
+      "title": "Data retention exceptions register",
+      "topic": "Compliance",
+      "status": "Needs review",
+      "owner": "Tom Alvarez",
+      "updated": "2026-09-26",
+      "reads": 677,
+      "gaps": 3,
+      "confidence": 0.61,
+      "summary": "Every live exception to the standard retention schedule, the approver, the expiry, and the review that renews or closes each one.",
+      "body": "## Data retention exceptions register\n\nEvery live exception to the standard retention schedule, the approver, the expiry, and the review that renews or closes each one.\n\n### When to use this\n\nThis is the reference for **Compliance** work owned by Tom Alvarez. It is at version 0 and was last edited by Priya Raman on 2026-09-26.\n\n### Before you start\n\n- Confirm the change falls under `retention` and note who approved it.\n- Confirm the change falls under `exceptions` and note who approved it.\n- Confirm the change falls under `register` and note who approved it.\n- Check the 2 sources cited below are still current.\n\n### Steps\n\n1. Open the request and confirm the scope with the requester.\n2. Apply the procedure as written; record each exception rather than skipping a step.\n3. Ask a second reviewer to check the evidence before the change closes.\n\n### Known gaps\n\n- The approval chain for a cross-region request is not written down.,- The rollback threshold is stated qualitatively and needs a number.,- No owner is named for the quarterly re-read.\n\n### Review\n\nNext review due **2026-10-05**. Current confidence **61%** across 555 reads in the last 30 days.",
+      "created": "2025-02-07",
+      "lastEditor": "Priya Raman",
+      "version": 0,
+      "reviewers": [
+        "Priya Raman",
+        "Lena Fischer"
+      ],
+      "dueReview": "2026-10-05",
+      "viewsLast30": 555,
+      "viewsTrend": [
+        {
+          "x": "2026-09-17",
+          "y": 49
+        },
+        {
+          "x": "2026-09-18",
+          "y": 44
+        },
+        {
+          "x": "2026-09-19",
+          "y": 46
+        },
+        {
+          "x": "2026-09-20",
+          "y": 46
+        },
+        {
+          "x": "2026-09-21",
+          "y": 57
+        },
+        {
+          "x": "2026-09-22",
+          "y": 68
+        },
+        {
+          "x": "2026-09-23",
+          "y": 67
+        },
+        {
+          "x": "2026-09-24",
+          "y": 66
+        },
+        {
+          "x": "2026-09-25",
+          "y": 61
+        },
+        {
+          "x": "2026-09-26",
+          "y": 47
+        }
+      ],
+      "tags": [
+        "retention",
+        "exceptions",
+        "register"
+      ],
+      "relatedIds": [
+        "art-014",
+        "art-010"
+      ],
+      "citations": [
+        {
+          "id": "ext-retention-policy",
+          "label": "Data retention policy",
+          "kind": "regulation",
+          "url": "https://example.com/policies/retention"
+        },
+        {
+          "id": "ext-gdpr-art30",
+          "label": "GDPR Article 30 record of processing",
+          "kind": "regulation",
+          "url": "https://gdpr-info.eu/art-30-gdpr/"
+        }
+      ],
+      "sourceOfTruth": "regulation"
+    },
+    {
+      "id": "art-030",
+      "title": "AI answer review checklist",
+      "topic": "Internal AI usage",
+      "status": "Published",
+      "owner": "Lena Fischer",
+      "updated": "2026-10-14",
+      "reads": 1980,
+      "gaps": 0,
+      "confidence": 0.9,
+      "summary": "How a generated answer is checked before it reaches a customer: the evidence test, the refusal test, and who signs the sample set.",
+      "body": "## AI answer review checklist\n\nHow a generated answer is checked before it reaches a customer: the evidence test, the refusal test, and who signs the sample set.\n\n### When to use this\n\nThis is the reference for **Internal AI usage** work owned by Lena Fischer. It is at version 2 and was last edited by Tom Alvarez on 2026-10-14.\n\n### Before you start\n\n- Confirm the change falls under `ai` and note who approved it.\n- Confirm the change falls under `review` and note who approved it.\n- Confirm the change falls under `quality` and note who approved it.\n- Check the 2 sources cited below are still current.\n\n### Steps\n\n1. Open the request and confirm the scope with the requester.\n2. Apply the procedure as written; record each exception rather than skipping a step.\n3. Ask a second reviewer to check the evidence before the change closes.\n\n### Known gaps\n\nNo open gaps. Raise one from a support thread if the procedure does not cover your case.\n\n### Review\n\nNext review due **2026-11-14**. Current confidence **90%** across 1,643 reads in the last 30 days.",
+      "created": "2025-02-02",
+      "lastEditor": "Tom Alvarez",
+      "version": 2,
+      "reviewers": [
+        "Tom Alvarez"
+      ],
+      "dueReview": "2026-11-14",
+      "viewsLast30": 1643,
+      "viewsTrend": [
+        {
+          "x": "2026-10-05",
+          "y": 122
+        },
+        {
+          "x": "2026-10-06",
+          "y": 123
+        },
+        {
+          "x": "2026-10-07",
+          "y": 142
+        },
+        {
+          "x": "2026-10-08",
+          "y": 172
+        },
+        {
+          "x": "2026-10-09",
+          "y": 199
+        },
+        {
+          "x": "2026-10-10",
+          "y": 213
+        },
+        {
+          "x": "2026-10-11",
+          "y": 188
+        },
+        {
+          "x": "2026-10-12",
+          "y": 169
+        },
+        {
+          "x": "2026-10-13",
+          "y": 145
+        },
+        {
+          "x": "2026-10-14",
+          "y": 130
+        }
+      ],
+      "tags": [
+        "ai",
+        "review",
+        "quality"
+      ],
+      "relatedIds": [
+        "art-008",
+        "art-009"
+      ],
+      "citations": [
+        {
+          "id": "ext-model-cards",
+          "label": "Internal model cards index",
+          "kind": "internal"
+        },
+        {
+          "id": "ext-pii-standard",
+          "label": "PII classification standard",
+          "kind": "internal"
+        }
+      ],
+      "sourceOfTruth": "internal"
+    }
+  ],
+  "topics": [
+    "Security",
+    "Reliability",
+    "Onboarding",
+    "Compliance",
+    "Customer support",
+    "Data quality",
+    "Cost optimisation",
+    "Internal AI usage"
+  ],
+  "reviewQueue": [
+    {
+      "articleId": "art-025",
+      "reviewer": "Lena Fischer",
+      "dueReview": "2026-09-19",
+      "reason": "2 open knowledge gaps before it can ship"
+    },
+    {
+      "articleId": "art-004",
+      "reviewer": "Marcus Lee",
+      "dueReview": "2026-10-05",
+      "reason": "2 open knowledge gaps before it can ship"
+    },
+    {
+      "articleId": "art-029",
+      "reviewer": "Priya Raman",
+      "dueReview": "2026-10-05",
+      "reason": "3 open knowledge gaps before it can ship"
+    },
+    {
+      "articleId": "art-009",
+      "reviewer": "Lena Fischer",
+      "dueReview": "2026-10-21",
+      "reason": "2 open knowledge gaps before it can ship"
+    },
+    {
+      "articleId": "art-018",
+      "reviewer": "Nadia Farouk",
+      "dueReview": "2026-10-21",
+      "reason": "1 open knowledge gap before it can ship"
+    },
+    {
+      "articleId": "art-011",
+      "reviewer": "Marcus Lee",
+      "dueReview": "2026-10-24",
+      "reason": "2 open knowledge gaps before it can ship"
+    },
+    {
+      "articleId": "art-005",
+      "reviewer": "Sam Okafor",
+      "dueReview": "2026-11-14",
+      "reason": "Draft has not had its first review"
+    },
+    {
+      "articleId": "art-016",
+      "reviewer": "Tom Alvarez",
+      "dueReview": "2026-11-14",
+      "reason": "Draft has not had its first review"
+    },
+    {
+      "articleId": "art-022",
+      "reviewer": "Priya Raman",
+      "dueReview": "2026-11-14",
+      "reason": "Draft has not had its first review"
+    },
+    {
+      "articleId": "art-027",
+      "reviewer": "Marcus Lee",
+      "dueReview": "2026-11-14",
+      "reason": "Draft has not had its first review"
+    },
+    {
+      "articleId": "art-019",
+      "reviewer": "Marcus Lee",
+      "dueReview": "2026-11-24",
+      "reason": "Draft has not had its first review"
+    }
+  ],
+  "activity": [
+    {
+      "id": "act-01",
+      "at": "2026-10-15T09:12:00Z",
+      "actor": "Priya Raman",
+      "verb": "published",
+      "target": "Customer support escalation matrix",
+      "targetId": "art-002",
+      "surface": "Knowledge"
+    },
+    {
+      "id": "act-02",
+      "at": "2026-10-15T14:40:00Z",
+      "actor": "Nadia Farouk",
+      "verb": "reopened review of",
+      "target": "EU data residency decision record",
+      "targetId": "art-024",
+      "surface": "Knowledge"
+    },
+    {
+      "id": "act-03",
+      "at": "2026-10-14T08:05:00Z",
+      "actor": "Lena Fischer",
+      "verb": "drafted",
+      "target": "Internal AI review board charter",
+      "targetId": "art-016",
+      "surface": "Knowledge"
+    },
+    {
+      "id": "act-04",
+      "at": "2026-10-14T16:20:00Z",
+      "actor": "Tom Alvarez",
+      "verb": "approved",
+      "target": "Data quality triage checklist",
+      "targetId": "art-007",
+      "surface": "Knowledge"
+    },
+    {
+      "id": "act-05",
+      "at": "2026-10-13T11:35:00Z",
+      "actor": "Marcus Lee",
+      "verb": "updated",
+      "target": "Cost per resolved ticket",
+      "targetId": "art-026",
+      "surface": "Knowledge"
+    },
+    {
+      "id": "act-06",
+      "at": "2026-10-13T15:02:00Z",
+      "actor": "Sam Okafor",
+      "verb": "flagged 2 gaps in",
+      "target": "DACH pricing pilot runbook",
+      "targetId": "art-011",
+      "surface": "Knowledge"
+    },
+    {
+      "id": "act-07",
+      "at": "2026-10-12T10:18:00Z",
+      "actor": "Nadia Farouk",
+      "verb": "submitted for review",
+      "target": "Security questionnaire turnaround time",
+      "targetId": "art-018",
+      "surface": "Knowledge"
+    },
+    {
+      "id": "act-08",
+      "at": "2026-10-11T13:47:00Z",
+      "actor": "Priya Raman",
+      "verb": "requested review of",
+      "target": "Handoff checklist between support teams",
+      "targetId": "art-025",
+      "surface": "Knowledge"
+    },
+    {
+      "id": "act-09",
+      "at": "2026-10-10T09:55:00Z",
+      "actor": "Lena Fischer",
+      "verb": "linked",
+      "target": "AI answer review checklist",
+      "targetId": "art-030",
+      "surface": "Copilot Hub"
+    },
+    {
+      "id": "act-10",
+      "at": "2026-10-09T17:10:00Z",
+      "actor": "Tom Alvarez",
+      "verb": "archived",
+      "target": "Knowledge gap intake form walkthrough",
+      "targetId": "art-013",
+      "surface": "Knowledge"
+    },
+    {
+      "id": "act-11",
+      "at": "2026-10-07T12:33:00Z",
+      "actor": "Sam Okafor",
+      "verb": "reassigned review of",
+      "target": "Data retention exceptions register",
+      "targetId": "art-029",
+      "surface": "Knowledge"
+    },
+    {
+      "id": "act-12",
+      "at": "2026-10-06T15:24:00Z",
+      "actor": "Marcus Lee",
+      "verb": "published",
+      "target": "Trial-to-paid conversion playbook",
+      "targetId": "art-028",
+      "surface": "Knowledge"
+    }
+  ]
+}

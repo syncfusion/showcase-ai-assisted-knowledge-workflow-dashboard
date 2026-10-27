@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/favicon.svg" />
+    <title>AI-Assisted Knowledge &amp; Workflow Copilot</title>
+    <script>
+      // Apply the saved theme before first paint so the page never flashes the wrong palette.
+      // `e-dark-mode` is the class the Syncfusion Tailwind 3 theme bundle keys its dark
+      // palette on, so the Grid and the other material controls start dark too.
+      (function () {
+        try {
+          var t = localStorage.getItem("copilot.theme");
+          if (t === "dark" || t === "light") {
+            document.documentElement.setAttribute("data-theme", t);
+            if (t === "dark") document.documentElement.classList.add("e-dark-mode");
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

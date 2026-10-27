@@ -1,0 +1,164 @@
+/* =====================================================================
+   BDS / Sales CRM token baseline — primitive, semantic, component.
+   Exactly two themes: light and dark. No third mode.
+   Chart series are categories only; status tones judge values.
+   ===================================================================== */
+
+:root,
+[data-theme="light"] {
+  /* ---- primitive ---- */
+  --p-blue-50: #eff6ff;
+  --p-blue-100: #dbeafe;
+  --p-blue-500: #2563eb;
+  --p-blue-600: #1d4ed8;
+  --p-blue-700: #1e40af;
+  --p-slate-0: #ffffff;
+  --p-slate-50: #f8fafc;
+  --p-slate-100: #f1f5f9;
+  --p-slate-200: #e2e8f0;
+  --p-slate-300: #cbd5e1;
+  --p-slate-400: #94a3b8;
+  --p-slate-500: #64748b;
+  --p-slate-600: #475569;
+  --p-slate-700: #334155;
+  --p-slate-800: #1e293b;
+  --p-slate-900: #0f172a;
+  --p-teal-500: #0d9488;
+  --p-fuchsia-500: #c026d3;
+  --p-sky-500: #0ea5e9;
+  --p-cyan-500: #06b6d4;
+  --p-purple-500: #8b5cf6;
+  --p-indigo-500: #6366f1;
+  --p-emerald-500: #10b981;
+  --p-amber-500: #f59e0b;
+  --p-rose-500: #e11d48;
+
+  /* ---- semantic ---- */
+  --sf-bg: var(--p-slate-50);
+  --sf-surface: var(--p-slate-0);
+  --sf-surface-2: var(--p-slate-50);
+  --sf-surface-3: var(--p-slate-100);
+  --sf-text: var(--p-slate-900);
+  --sf-text-muted: var(--p-slate-500);
+  --sf-text-subtle: var(--p-slate-400);
+  --sf-border: var(--p-slate-200);
+  --sf-border-strong: var(--p-slate-300);
+  --sf-brand: var(--p-blue-500);
+  --sf-brand-strong: var(--p-blue-600);
+  --sf-brand-soft: var(--p-blue-50);
+  --sf-focus: var(--p-blue-500);
+
+  --sf-success-primary: var(--p-emerald-500);
+  --sf-success-bg: #ecfdf5;
+  --sf-success-text: #047857;
+  --sf-warning-primary: var(--p-amber-500);
+  --sf-warning-bg: #fffbeb;
+  --sf-warning-text: #b45309;
+  --sf-danger-primary: var(--p-rose-500);
+  --sf-danger-bg: #fff1f2;
+  --sf-danger-text: #be123c;
+  --sf-info-primary: var(--p-cyan-500);
+  --sf-info-bg: #ecfeff;
+  --sf-info-text: #0e7490;
+  --sf-neutral-primary: var(--p-slate-500);
+  --sf-neutral-bg: var(--p-slate-100);
+  --sf-neutral-text: var(--p-slate-600);
+
+  /* Solid appointment fills for the Scheduler. A filled block needs a
+     dark fill + white ink, so these are the 600/700 steps of the status
+     hues rather than the 500 used for text on a tinted background.
+     Each pair is checked at 4.5:1 or better against its ink. */
+  --sf-appt-info-fill: var(--p-blue-600);
+  --sf-appt-info-ink: #ffffff;
+  --sf-appt-success-fill: #047857;
+  --sf-appt-success-ink: #ffffff;
+  --sf-appt-warning-fill: #b45309;
+  --sf-appt-warning-ink: #ffffff;
+  --sf-appt-danger-fill: #be123c;
+  --sf-appt-danger-ink: #ffffff;
+  --sf-appt-neutral-fill: var(--p-slate-600);
+  --sf-appt-neutral-ink: #ffffff;
+
+  /* chart categories: never a status hue */
+  --sf-chart-series-1: #2563eb;
+  --sf-chart-series-2: #0d9488;
+  --sf-chart-series-3: #c026d3;
+  --sf-chart-series-4: #475569;
+  --sf-chart-series-5: #0ea5e9;
+  --sf-chart-series-6: #06b6d4;
+  --sf-chart-series-7: #8b5cf6;
+  --sf-chart-series-8: #6366f1;
+  --sf-chart-reference: #94a3b8;
+}
+
+[data-theme="dark"] {
+  --sf-bg: #0b1220;
+  --sf-surface: #0f172a;
+  --sf-surface-2: #0b1220;
+  --sf-surface-3: #1a2436;
+  --sf-text: #e2e8f0;
+  --sf-text-muted: #94a3b8;
+  --sf-text-subtle: #64748b;
+  --sf-border: #1e293b;
+  --sf-border-strong: #334155;
+  --sf-brand: #60a5fa;
+  --sf-brand-strong: #93c5fd;
+  --sf-brand-soft: rgba(96, 165, 250, 0.14);
+  --sf-focus: #60a5fa;
+
+  --sf-success-primary: #34d399;
+  --sf-success-bg: rgba(52, 211, 153, 0.14);
+  --sf-success-text: #6ee7b7;
+  --sf-warning-primary: #fbbf24;
+  --sf-warning-bg: rgba(251, 191, 36, 0.14);
+  --sf-warning-text: #fcd34d;
+  --sf-danger-primary: #fb7185;
+  --sf-danger-bg: rgba(251, 113, 133, 0.14);
+  --sf-danger-text: #fda4af;
+  --sf-info-primary: #22d3ee;
+  --sf-info-bg: rgba(34, 211, 238, 0.14);
+  --sf-info-text: #67e8f9;
+  --sf-neutral-primary: #94a3b8;
+  --sf-neutral-bg: rgba(148, 163, 184, 0.14);
+  --sf-neutral-text: #cbd5e1;
+
+  /* Dark theme: lighten the fills so a filled appointment stays legible
+     against the dark surface, and pair them with the dark ink. */
+  --sf-appt-info-fill: #3b82f6;
+  --sf-appt-info-ink: #0b1220;
+  --sf-appt-success-fill: #10b981;
+  --sf-appt-success-ink: #0b1220;
+  --sf-appt-warning-fill: #f59e0b;
+  --sf-appt-warning-ink: #0b1220;
+  --sf-appt-danger-fill: #f43f5e;
+  --sf-appt-danger-ink: #0b1220;
+  --sf-appt-neutral-fill: #94a3b8;
+  --sf-appt-neutral-ink: #0b1220;
+
+  --sf-chart-series-1: #60a5fa;
+  --sf-chart-series-2: #2dd4bf;
+  --sf-chart-series-3: #e879f9;
+  --sf-chart-series-4: #94a3b8;
+  --sf-chart-series-5: #38bdf8;
+  --sf-chart-series-6: #22d3ee;
+  --sf-chart-series-7: #a78bfa;
+  --sf-chart-series-8: #818cf8;
+  --sf-chart-reference: #64748b;
+}
+
+/* ---- component tokens ---- */
+:root {
+  --c-sidebar-w: 240px;
+  --c-sidebar-w-collapsed: 64px;
+  --c-header-h: 72px;
+  --c-radius-sm: 6px;
+  --c-radius-md: 10px;
+  --c-radius-lg: 14px;
+  --c-gap-filter: 50px;
+  --c-w-search: 320px;
+  --c-w-dropdown: 200px;
+  --c-w-period: 240px;
+  --c-shadow-card: 0 1px 2px rgba(15, 23, 42, 0.04), 0 1px 3px rgba(15, 23, 42, 0.06);
+  --c-shadow-pop: 0 8px 24px rgba(15, 23, 42, 0.12);
+  --c-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}

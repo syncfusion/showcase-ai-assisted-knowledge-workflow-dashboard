@@ -1,0 +1,12 @@
+/* =====================================================================
+   Syncfusion theme + component styles.
+   Syncfusion 35.x ships the compiled theme CSS in @syncfusion/ej2-icons
+   (installed transitively); component packages carry JS only.
+   Tailwind3 is the light theme, Tailwind3Dark the dark theme — selected
+   by the theme provider at runtime, never by a second stylesheet.
+   ===================================================================== */
+
+@import "./tokens.css";
+
+/* One theme file: Tailwind3 (+ Dark) */
+@import "@syncfusion/ej2-icons/styles/tailwind3.css";

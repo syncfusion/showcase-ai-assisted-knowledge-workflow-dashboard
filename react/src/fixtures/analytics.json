@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-10-15",
+  "periodLabel": "Q3 FY26 (Jul–Sep)",
+  "kpis": [
+    { "id": "kpi_pipeline", "title": "Net new pipeline", "value": 18420000, "format": "money-compact", "deltaPct": 12.4, "tone": "success", "target": 16500000, "unit": "USD" },
+    { "id": "kpi_gaps", "title": "Open knowledge gaps", "value": 7, "format": "count", "deltaPct": -28.6, "tone": "success", "target": 10, "unit": "count" },
+    { "id": "kpi_sla", "title": "Tickets at SLA risk", "value": 11, "format": "count", "deltaPct": 37.5, "tone": "danger", "target": 6, "unit": "count" },
+    { "id": "kpi_ai_actions", "title": "AI-assisted actions", "value": 248, "format": "count", "deltaPct": 15.9, "tone": "info", "target": 200, "unit": "count" }
+  ],
+  "regions": [
+    { "id": "NA", "name": "North America", "arr": 9840000, "plan": 9600000, "deltaPct": 8.1, "tone": "success" },
+    { "id": "EMEA", "name": "EMEA", "arr": 6120000, "plan": 6415000, "deltaPct": 1.4, "tone": "warning" },
+    { "id": "APAC", "name": "APAC", "arr": 3460000, "plan": 3030000, "deltaPct": 14.2, "tone": "success" },
+    { "id": "LATAM", "name": "LATAM", "arr": 1280000, "plan": 1328000, "deltaPct": -3.6, "tone": "danger" },
+    { "id": "MEA", "name": "Middle East & Africa", "arr": 720000, "plan": 674000, "deltaPct": 6.8, "tone": "success" }
+  ]
+}
